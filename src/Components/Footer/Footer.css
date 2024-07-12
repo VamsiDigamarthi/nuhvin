@@ -1,0 +1,145 @@
+.footer {
+  width: 100%;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  background-color: #383433;
+}
+
+.footer-left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-company-logo-text-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-company-logo-text-card > img {
+  width: 200px;
+}
+
+.footer-company-logo-text-card > p {
+  color: #fff;
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer-services-others-address-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-services-single-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 2px solid red; */
+}
+
+.footer-services-single-card > h3 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff3c00;
+}
+
+.footer-services-single-card > ul {
+  list-style-type: none;
+  /* margin-left: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* font-weight: 500; */
+  color: #fff;
+}
+
+/* right side */
+
+.footer-right-side {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+}
+
+.footer-input-card {
+  width: 340px;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  height: 40px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-input-card > input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding-left: 10px;
+  font-family: "Archivo", sans-serif;
+}
+
+.footer-right-side > button {
+  width: 170px;
+  height: 35px;
+  background-color: #ff3c00;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-icons-card {
+  display: flex;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    height: fit-content;
+  }
+  .footer-left-side {
+    width: 100%;
+  }
+  .footer-company-logo-text-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-services-others-address-card {
+    gap: 1rem;
+  }
+  .footer-right-side {
+    width: 100%;
+  }
+  .footer-input-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 578px) and (max-width: 800px) {
+}

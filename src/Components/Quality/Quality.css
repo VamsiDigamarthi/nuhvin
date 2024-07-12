@@ -1,0 +1,27 @@
+.quality-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 30px 60px;
+  /* height: 110vh; */
+  justify-content: center;
+  align-items: center;
+}
+
+.shero-span-color {
+  color: #ff3c00;
+}
+
+.quality-main > P {
+  font-size: 17px;
+  font-weight: 700;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .quality-main {
+    height: fit-content;
+    padding: 40px;
+  }
+}

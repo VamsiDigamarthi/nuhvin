@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --yellow: #f5c32c;
+  --orange: #ff7e5f;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  overflow: hidden;
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #d8d8f1;
+  filter: blur(150px);
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  /* filter: blur(72px); */
+}
+
+.second-blur {
+  position: absolute;
+  width: 40rem;
+  height: 15rem;
+  border-radius: 50%;
+  background: #d8d8f1;
+  filter: blur(100px);
+  z-index: 1;
+  top: -10%;
+  right: -10%;
+  /* filter: blur(72px); */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 
+font-family: "Archivo", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100; */
+
+.services-first-card-line {
+  display: flex;
+  gap: 1rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff3c00;
+  /* border: 2px solid red; */
 }
 
-.App-link {
-  color: #61dafb;
+.services-first-card-line > span {
+  width: 50px;
+  height: 2px;
+  background-color: #ff3c00;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sabout-link-card {
+  text-decoration: none;
+}
+
+.shero-span-color {
+  color: #ff3c00;
 }

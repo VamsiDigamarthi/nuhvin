@@ -1,0 +1,150 @@
+.testimonial-card {
+  width: 100%;
+  height: 60vh;
+  padding: 30px 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-left-card {
+  width: 60%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.stroke-text {
+  color: transparent;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+  font-size: 50px;
+}
+
+.testimonial-customer-name {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.testimonial-customer-name > span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonial-customer-name > :nth-child(2) {
+  color: #ff3c00;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.testimonial-left-card > h2 {
+  color: #0c1a1a;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+  color: #c8c8cc;
+}
+
+.testimonial-right-card {
+  width: 35%;
+  /* border: 2px solid red; */
+  position: relative;
+  height: 100%;
+}
+
+.testimonial-right-card > img {
+  width: 200px;
+  border-radius: 20px;
+  height: 280px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  z-index: 3;
+}
+
+.testimonial-orange-circle {
+  width: 200px;
+  border-radius: 20px;
+  height: 280px;
+  border: 2px solid #ff3c00;
+  position: absolute;
+  right: 70px;
+  top: -10px;
+  z-index: 2;
+}
+
+.testimonial-orange-big-circle {
+  height: 280px;
+  width: 200px;
+  position: absolute;
+  right: 45px;
+  top: 10px;
+  z-index: 2;
+  background-color: #ff3c00;
+
+  border-radius: 20px;
+}
+
+.testimonial-arrows-card {
+  position: absolute;
+  left: -20px;
+  bottom: 0px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  /* border: 2px solid yellow; */
+}
+
+.testimonial-arrows-card > :nth-child(1) {
+  cursor: pointer;
+}
+
+.testimonial-arrows-card > :nth-child(2) {
+  cursor: pointer;
+}
+
+.testimonial-right-side-first-card {
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  /* background-color: yellow; */
+  z-index: 4;
+}
+
+.testimonial-right-side-second-card {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  /* background-color: yellow; */
+  z-index: 4;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    height: fit-content;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .testimonial-left-card {
+    width: 100%;
+  }
+  .testimonial-right-card {
+    height: 50vh;
+    width: 100%;
+  }
+  .testimonial-arrows-card {
+    bottom: -20px;
+  }
+  .testimonial-customer-name {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

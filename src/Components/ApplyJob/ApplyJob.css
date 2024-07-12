@@ -1,0 +1,30 @@
+.apply-now-job-form-desc-main-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 60px;
+  height: 100vh;
+}
+
+.apply-now-job-form-desc-main-left-card {
+  width: 70%;
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 30px;
+}
+
+.apply-now-job-form-desc-main-right-card {
+  width: 22%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 17px;
+  color: grey;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

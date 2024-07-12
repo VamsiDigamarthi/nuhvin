@@ -1,0 +1,130 @@
+.services-main-card {
+  width: 100%;
+  /* height: 100vh; */
+  position: relative;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 2px solid yellow; */
+}
+
+.services-main-card > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.services-first-card-line {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff3c00;
+  /* border: 2px solid red; */
+}
+
+.services-first-card-line > span {
+  width: 50px;
+  height: 2px;
+  background-color: #ff3c00;
+}
+
+.shero-span-color {
+  color: #ff3c00;
+}
+
+.all-services-main-card {
+  display: flex;
+  gap: 2.2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.all-services-single-card {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  padding: 30px 20px;
+  position: relative;
+  background-color: #f4f4f4;
+  border: 1px solid #e4e4e5;
+  position: relative;
+  line-height: 25px;
+  height: 360px;
+  overflow: hidden;
+}
+
+.all-services-single-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start the gradient outside the element */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    black
+  ); /* Gradient from transparent to black */
+  transition: left 0.5s ease; /* Transition for left position */
+  z-index: -1; /* Ensure the gradient is behind other content */
+}
+
+.all-services-single-card:hover::before {
+  left: 0; /* Move the gradient to the right edge on hover */
+}
+
+.all-services-single-card > h2 {
+  color: #070b20;
+  line-height: 30px;
+}
+
+.all-services-single-card > span {
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+
+.all-services-single-card-button-card {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 1.3rem;
+  background-color: white;
+  border: 1px solid #e4e4e5;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.all-services-single-card-button-card > button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: grey;
+  /* font-weight: bold; */
+}
+
+.all-services-single-card-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}

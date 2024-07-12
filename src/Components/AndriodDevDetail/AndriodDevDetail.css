@@ -1,0 +1,14 @@
+.andriod-dev-dummytext {
+  text-align: center;
+  width: 70%;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+  .andriod-dev-dummytext {
+    width: 90%;
+  }
+}

@@ -1,0 +1,214 @@
+.detail-text-main {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-text-first-card {
+  background-color: #0c1a1a;
+  padding: 30px 50px;
+  width: 100%;
+  padding-top: 60px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-text-first-card > img {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 50%;
+}
+
+.details-text-first-inner-card {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  color: #fff;
+  /* border: 2px solid red; */
+}
+
+.details-text-first-inner-card > h1 {
+  font-size: 50px;
+}
+
+.details-text-first-inner-card > p {
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.details-text-second-card {
+  width: 100%;
+  padding: 30px 60px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-text-empty-card {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-color: #f8f8f8;
+}
+
+.details-text-all-single-card-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  /* flex-wrap: wrap; */
+  /* border: 2px solid red; */
+}
+
+.details-text-single-card-one {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* align-items: center; */
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.details-text-single-card-one > :nth-child(1) {
+  color: #ff3c00;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.details-text-single-card-one > h1 {
+  font-size: 30px;
+}
+
+.details-text-single-card-one > p {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.details-text-button-card {
+  width: 160px;
+  height: 55px;
+  background-color: #ff3c00;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.details-text-button-card > :nth-child(1) {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+}
+.details-text-button-card > :nth-child(2) {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detsila-text-single-icons-with-text-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 30px 40px;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  width: 30%;
+  height: 70%;
+  align-items: flex-start;
+  justify-content: center;
+  /* background-color: #f8f8f8; */
+}
+
+.detsila-text-single-icons-with-text-card > h3 {
+  font-size: 26px;
+  color: #0c1a1a;
+}
+
+.detsila-text-single-icons-with-text-card > p {
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: grey;
+  /* text-align: justify; */
+}
+
+.details-text-single-icons-with-text-card-white-card {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 50px;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-text-single-card-arrow-card {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .detail-text-first-card {
+    padding: 30px;
+  }
+  .detail-text-first-card > img {
+    display: none;
+    height: fit-content;
+  }
+  .details-text-first-inner-card {
+    width: 100%;
+    padding: -20px;
+  }
+  .details-text-second-card {
+    height: fit-content;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 40px;
+  }
+  .details-text-all-single-card-parent {
+    flex-direction: column;
+    gap: 3rem;
+    height: fit-content;
+  }
+  .details-text-single-card-one {
+    width: 100%;
+  }
+  .detsila-text-single-icons-with-text-card {
+    width: 100%;
+  }
+  .details-text-first-inner-card > h1 {
+    font-size: 28px;
+    margin: 0px;
+    margin-bottom: -10px;
+  }
+}
