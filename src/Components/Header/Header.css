@@ -20,7 +20,7 @@
 }
 
 .active {
-  /* border-right: 6px solid #fc4e14; */
+  border-bottom: 1px solid #fc4e14;
   /* border-bottom: 2px solid #ff3c00; */
 
   /* background-color: #ff7b00cb; */
@@ -52,6 +52,7 @@
 .header-nav-links-span:hover {
   transform: scale(1.1);
   transition: all 1s;
+  border-bottom: 1px solid #ff3c00;
 }
 .header-nav-links > button {
   width: 100px;

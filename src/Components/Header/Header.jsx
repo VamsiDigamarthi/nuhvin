@@ -28,7 +28,7 @@ const Header = () => {
       className="header"
       style={{ backgroundColor, transition: "background-color 0.3s ease" }}
     >
-      <Link to="/" className="header-nav-links-span">
+      <Link to="/">
         <img
           className="header-nav-logo-image"
           src="/images/ngs-logo.png"
@@ -43,18 +43,28 @@ const Header = () => {
         >
           <span>ABOUT</span>
         </NavLink>
-        <Link to="/our-services" className="header-nav-links-span">
+        <NavLink
+          activeClassName="active"
+          to="/our-services"
+          className="header-nav-links-span"
+        >
           <span>SERVICES</span>
-        </Link>
-        <Link to="/career" className="header-nav-links-span">
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/career"
+          className="header-nav-links-span"
+        >
           <span>CAREER</span>
-        </Link>
-        <Link className="header-nav-links-span">
-          <span>HOME</span>
-        </Link>
-        <Link to="/contact" className="header-nav-links-span">
+        </NavLink>
+
+        <NavLink
+          activeClassName="active"
+          to="/contact"
+          className="header-nav-links-span"
+        >
           <span>CONTACT US</span>
-        </Link>
+        </NavLink>
       </div>
       {/* mobile */}
       <div className="mobile-ham-icons">
@@ -74,40 +84,45 @@ const Header = () => {
       </div>
       {hamborIcons && (
         <div className="mobile-header-link">
-          <Link
+          <NavLink
+            activeClassName="active"
             onClick={() => setHamborIcons(!hamborIcons)}
             to="/detail-about"
             className="header-nav-links-span"
           >
             <span>ABOUT</span>
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
+            activeClassName="active"
             onClick={() => setHamborIcons(!hamborIcons)}
             to="/our-services"
             className="header-nav-links-span"
           >
             <span>SERVICES</span>
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
+            activeClassName="active"
             onClick={() => setHamborIcons(!hamborIcons)}
             to="/career"
             className="header-nav-links-span"
           >
             <span>CAREER</span>
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
+            activeClassName="active"
             onClick={() => setHamborIcons(!hamborIcons)}
             className="header-nav-links-span"
           >
             <span>HOME</span>
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
+            activeClassName="active"
             onClick={() => setHamborIcons(!hamborIcons)}
             to="/contact"
             className="header-nav-links-span"
           >
             <span>CONTACT US</span>
-          </Link>
+          </NavLink>
         </div>
       )}
     </div>
