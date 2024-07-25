@@ -9,7 +9,7 @@ const DetailCareer = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>Our Story</h3>
           </div>
           <h1>What we say to Our people</h1>
@@ -49,29 +49,31 @@ const DetailCareer = () => {
       </div>
       <div className="detail-career-table">
         <h1>Rewrite your future. Search and apply for a job today.</h1>
-        <div className="detail-career-page-table-main">
-          <div className="detail-carrer-page-table-header">
-            <span>Job Name</span>
-            <span>Location</span>
-            <span>Experince Level</span>
-            <span>Contract Type</span>
+        <div className="carrer-scrolling-view">
+          <div className="detail-career-page-table-main">
+            <div className="detail-carrer-page-table-header">
+              <span>Job Name</span>
+              <span>Location</span>
+              <span>Experince Level</span>
+              <span>Contract Type</span>
+            </div>
+            <Link to="/apply-job" className="apply-job-link">
+              <div className="detail-career-page-table-body">
+                <span>Mobile App Developemnt</span>
+                <span>Hyderabad</span>
+                <span>6 month</span>
+                <span>Full-Time</span>
+              </div>
+            </Link>
+            <Link to="/apply-job" className="apply-job-link">
+              <div className="detail-career-page-table-body">
+                <span>Web Developer</span>
+                <span>Hyderabad</span>
+                <span>6 month</span>
+                <span>Regular</span>
+              </div>
+            </Link>
           </div>
-          <Link to="/apply-job" className="apply-job-link">
-            <div className="detail-career-page-table-body">
-              <span>Mobile App Developemnt</span>
-              <span>Hyderabad</span>
-              <span>6 month</span>
-              <span>Full-Time</span>
-            </div>
-          </Link>
-          <Link to="/apply-job" className="apply-job-link">
-            <div className="detail-career-page-table-body">
-              <span>Web Developer</span>
-              <span>Hyderabad</span>
-              <span>6 month</span>
-              <span>Regular</span>
-            </div>
-          </Link>
         </div>
       </div>
     </div>

@@ -12,7 +12,6 @@ export const About = () => {
       </div>
       <div className="about-right-side-card">
         <div className="services-first-card-line">
-          <span></span>
           <h3>About NGS </h3>
         </div>
         <h1>The Fastest Way To Achieve</h1>
@@ -22,7 +21,7 @@ export const About = () => {
         <p>
           Collaboratively benchmark superior interfaces rather than-added
           votals. Compellingly deploy holistic growth strategies vis-a-vis cross
-          medis initiatives. interactively morph
+          media initiatives. interactively morph
         </p>
         <motion.div
           initial={{ x: "15rem" }}

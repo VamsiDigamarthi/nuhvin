@@ -37,11 +37,11 @@
 .our-stories-fisrt-card-our-story-text > span {
   width: 80px;
   height: 2px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
 }
 
 .our-stories-fisrt-card-our-story-text > h3 {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .our-stories-first-card-inner-card > h1 {
@@ -86,7 +86,7 @@
 .our-story-left-side-dotted-first-big-dot {
   width: 20px;
   height: 20px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 50%;
   position: absolute;
   right: 22px;
@@ -113,7 +113,7 @@
 }
 
 .our-stories-second-first-card-sss > h3 {
-  color: #ff3c00;
+  color: #ff6600;
   font-size: 26px;
   letter-spacing: 1px;
 }
@@ -161,7 +161,7 @@
 .our-stories-second-first-card-sss > button {
   width: 150px;
   height: 40px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 10px;
   font-size: 18px;
   font-weight: bold;

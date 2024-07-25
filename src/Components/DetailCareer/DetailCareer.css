@@ -27,11 +27,17 @@
   padding: 30px 60px;
 }
 
+.carrer-scrolling-view {
+  /* border: 2px solid blue; */
+  overflow-x: scroll;
+}
+
 .detail-career-page-table-main {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  /* border: 2px solid red; */
 }
 
 .detail-carrer-page-table-header {
@@ -94,4 +100,12 @@
 
 .apply-job-link {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .carrer-scrolling-view {
+    /* border: 2px solid red; */
+    width: 500px;
+    overflow: scroll;
+  }
 }

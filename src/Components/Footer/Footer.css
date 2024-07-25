@@ -53,7 +53,7 @@
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .footer-services-single-card > ul {
@@ -102,7 +102,7 @@
 .footer-right-side > button {
   width: 170px;
   height: 35px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border: none;
   outline: none;
   border-radius: 30px;

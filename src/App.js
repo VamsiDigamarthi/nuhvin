@@ -33,6 +33,8 @@ import WebDevelopment from "./Components/WebDevelopemnt/WebDevelopment";
 import { AndriodDevDetail } from "./Components/AndriodDevDetail/AndriodDevDetail";
 import DatabseManagementDetail from "./Components/DatabaseManagementDetail/DatabseManagementDetail";
 import ScrollToTopOnRouteChange from "./ScrollToTopOnRouteChange";
+// import Image from "./Components/Image/Image";
+import AdvancedSlider from "./Components/Slider/Slider";
 
 function App() {
   return (
@@ -46,7 +48,7 @@ function App() {
             path="/"
             element={
               <>
-                <SHero />
+                <AdvancedSlider />
                 <Text />
                 {/* <Services /> */}
                 {/* <HowItsWork /> */}
@@ -55,6 +57,7 @@ function App() {
                 <SecondAbout />
                 <WhatWeOffer />
                 <Quality />
+                {/* <Image /> */}
                 <Testimonials />
               </>
             }

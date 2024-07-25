@@ -15,7 +15,7 @@
 }
 
 .shero-span-color {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .what-we-offers-text-card > span {
@@ -41,7 +41,7 @@
   position: relative;
 }
 .what-we-offers-card-parents-single-card > span {
-  background-color: #ff3c00;
+  background-color: #ff6600;
   padding: 7px;
   position: absolute;
   top: 10px;
@@ -70,7 +70,7 @@
   overflow: hidden;
   /* transform: rotate(-180deg); */
   background-color: #f4f4f4de;
-  border-top: 3px solid #ff3c00;
+  border-top: 3px solid #ff6600;
   padding: 25px;
   display: flex;
   flex-direction: column;

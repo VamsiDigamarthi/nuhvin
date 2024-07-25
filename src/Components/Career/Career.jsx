@@ -9,7 +9,6 @@ export const Career = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
             <h3>Our Story</h3>
           </div>
           <h1>What we say to Our people</h1>
@@ -64,7 +63,7 @@ export const Career = () => {
           automation.
         </p>
         <p className="text-change">
-          is a digitization company that provides exclusivity. We are the
+          NGS is a digitization company that provides exclusivity. We are the
           driving force behind the experience. Colossus of today—the companies
           best known for the transformative experiences they deliver. Working
           with the best has provided us with much of our knowledge about great
@@ -72,18 +71,18 @@ export const Career = () => {
           care deeply about the human experiences they provide for customers.
         </p>
         <p className="text-change">
-          collaborations span many different industries, such as Banking &
+          Our collaborations span many different industries, such as Banking &
           Financial Services, Insurance, Healthcare, Retail, Telecommunications,
           Media & Entertainment, Technology, Travel & Hospitality, and
           Logistics.
         </p>
         <p className="text-change">
-          are dedicated to continuously striving for a better world for
+          We are dedicated to continuously striving for a better world for
           individuals. Our employees are given the freedom and autonomy to
           experiment without fear, seize opportunities, and support change due
-          to our culture of entrepreneurialism and inclusiveness. They turn
-          vision into reality by combining deep business and industry expertise
-          with collaborative innovation and diverse perspectives to realize our
+          to our culture of entrepreneurialism and inclusiveness. We turn vision
+          into reality by combining deep business and industry expertise with
+          collaborative innovation and diverse perspectives to realize our
           purpose: the relentless pursuit of a world that works better world for
           individuals. We require both those who contemplate and those who take
           action. Individuals who have a natural curiosity and drive to learn
@@ -103,7 +102,6 @@ export const Career = () => {
         </div>
         <div className="details-abput-third-card-right-side">
           <div className="details-about-third-card-right-side-ornage-container">
-            <span></span>
             <h3>The way we see</h3>
           </div>
           <h1>
@@ -114,7 +112,7 @@ export const Career = () => {
             Engineering <span className="shero-span-color">Capacity.</span>
           </h1> */}
           <p>
-            Protect yourself from fraudulent activities. NGS is committe to
+            Protect yourself from fraudulent activities. NGS is commited to
             transparency and integrity. NGS never charges candidates a fee to
             participate in our recruitment process.
           </p>
@@ -125,7 +123,7 @@ export const Career = () => {
             posing as NGS Recruiters or Managers.
           </p>
           <p>
-            Official communivations will only come through our verified
+            Official communications will only come through our verified
             channels. If in doubt, contact our official support team directly.
             Stay vigilant and safeguard your online presence.
           </p>

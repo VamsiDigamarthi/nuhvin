@@ -36,11 +36,11 @@
 .our-stories-fisrt-card-our-story-text > span {
   width: 80px;
   height: 2px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
 }
 
 .our-stories-fisrt-card-our-story-text > h3 {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .our-stories-first-card-inner-card > h1 {
@@ -85,7 +85,7 @@
 .our-story-left-side-dotted-first-big-dot {
   width: 20px;
   height: 20px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 50%;
   position: absolute;
   right: 22px;
@@ -111,7 +111,7 @@
 .our-stories-right-side-dotted-card {
   width: 100%;
   height: 100%;
-  border: 2px dashed #ff3c00;
+  border: 2px dashed #ff6600;
   border-radius: 140px;
   position: absolute;
   right: -20px;
@@ -135,11 +135,11 @@
 
 .detail-about-second-card > h1 {
   width: fit-content;
-  /* border-bottom: 3px solid #ff3c00; */
+  /* border-bottom: 3px solid #ff6600; */
 }
 
 .shero-span-color {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .detail-about-second-card > p {
@@ -155,7 +155,7 @@
 .detail-about-second-card > button {
   width: 170px;
   height: 40px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 20px;
   border: none;
   outline: none;
@@ -218,13 +218,13 @@
   display: flex;
   gap: 1rem;
   align-items: center;
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .details-about-third-card-right-side-ornage-container > span {
   width: 40px;
   height: 2px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
 }
 
 .details-abput-third-card-right-side > h1 {
@@ -242,7 +242,7 @@
 .detail-about-all-button {
   width: 150px;
   height: 40px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border: none;
   outline: none;
   border-radius: 30px;

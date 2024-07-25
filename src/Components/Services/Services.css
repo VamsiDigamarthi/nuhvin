@@ -24,18 +24,18 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #ff3c00;
+  color: #ff6600;
   /* border: 2px solid red; */
 }
 
 .services-first-card-line > span {
   width: 50px;
   height: 2px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
 }
 
 .shero-span-color {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .all-services-main-card {

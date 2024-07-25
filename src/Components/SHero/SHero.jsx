@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Shero.css";
 import { IoMdPlay } from "react-icons/io";
 import { GiStarShuriken } from "react-icons/gi";
@@ -6,6 +6,27 @@ import { FaCircle } from "react-icons/fa6";
 import { FaRegCircle } from "react-icons/fa6";
 import { motion } from "framer-motion";
 export const SHero = () => {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const handleMouseMove = (event) => {
+      const { clientX, currentTarget } = event;
+      const screenWidth = currentTarget.clientWidth;
+      const mouseXPercentage = clientX / screenWidth;
+
+      // Calculate the offset based on mouse position
+      const newOffset = (mouseXPercentage - 0.5) * -60; // -20px to 20px range
+      setOffset(newOffset);
+    };
+
+    const section = document.querySelector(".shero-second-main-card");
+    section.addEventListener("mousemove", handleMouseMove);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      section.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
   const transition = { type: "spring", duration: 1 };
   return (
     <div className="shero-main-card">
@@ -20,7 +41,7 @@ export const SHero = () => {
             <GiStarShuriken size={25} color="#ff3c00" />
           </motion.span>
           <div className="s-hero-working-with-ngs-card">
-            <span></span>
+            {/* <span></span> */}
             <h3>
               Work with <span className="shero-span-color">NGS</span>
             </h3>
@@ -46,27 +67,31 @@ export const SHero = () => {
           <div class="shero-small-span-animated-parent-div">
             <span class="shero-small-span-animated-parent-div-moving-span"></span>
           </div>
-          <div className="shero-left-button-card">
+          {/* <div className="shero-left-button-card">
             <button>Work Together</button>
             <span>
-              <IoMdPlay size={25} color="#ff3c00" />
+              <IoMdPlay size={25} color="#ff6600" />
             </span>
-          </div>
+          </div> */}
         </div>
-
-        <div className="shero-second-right-card">
+        <img
+          style={{ transform: `translateX(${offset}px)` }}
+          src="/images/5db7921e05-removebg-preview.png"
+          alt=""
+        />
+        {/* <div className="shero-second-right-card">
           <div className="shero-second-right-image-card">
             <img src="/images/istockphoto-616902766-612x612.jpg" alt="" />
           </div>
           <div className="shero-second-right-orange-circle-card"></div>
           <div className="shero-second-right-white-circle-card"></div>
           <span className="shero-second-right-first-circle">
-            <FaCircle color="#f25727" size={40} />
+            <FaCircle color="#ff6600" size={40} />
           </span>
           <span className="shero-second-right-second-circle">
             <FaRegCircle size={40} color="grey" />
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

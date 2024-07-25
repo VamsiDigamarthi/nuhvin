@@ -87,7 +87,7 @@
 }
 
 .details-text-single-card-one > :nth-child(1) {
-  color: #ff3c00;
+  color: #ff6600;
   font-size: 18px;
   font-weight: bold;
 }
@@ -105,7 +105,7 @@
 .details-text-button-card {
   width: 160px;
   height: 55px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;

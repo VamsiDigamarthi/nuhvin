@@ -17,7 +17,7 @@ export const DetailServices = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>Ngs Services</h3>
           </div>
           <h1>What we say to Our people</h1>
@@ -306,7 +306,7 @@ export const DetailServices = () => {
           className="our-stories-third-card-parents-right-card"
         >
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>FUTURE</h3>
           </div>
           <h1>
@@ -356,26 +356,10 @@ export const DetailServices = () => {
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
               <span>Provide exceptional customer service</span> : We focus
-              customer service and endeavor to give our clients a happy and
+              customer service and endeavour to give our clients a happy and
               stress-free experience.
             </span>
           </div>
-          {/* <div className="our-stories-third-card-icons-with-text">
-            <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
-            <span>
-              <span>Sustainability</span> : To create software solutions that
-              are not only effective but also environmentally and socially
-              responsible.
-            </span>
-          </div> */}
-          {/* <div className="our-stories-third-card-icons-with-text">
-            <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
-            <span>
-              <span>Diversity and inclusion</span> : To foster a diverse and
-              inclusive environment where everyone feels valued and empowered to
-              contribute their unique talents.
-            </span>
-          </div> */}
         </motion.div>
       </div>
     </div>

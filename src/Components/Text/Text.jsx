@@ -25,7 +25,7 @@ export const Text = () => {
         operations, while enhanced analytics provides actionable insights. Cloud
         computing provides scalability and agility, allowing for smooth
         operations. These technology developments enable NGS to optimize
-        operations, improve clents experiences, and generate long-term growth.
+        operations, improve client experiences, and generate long-term growth.
       </p>
       <button>
         <Link

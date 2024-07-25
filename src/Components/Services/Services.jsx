@@ -7,7 +7,7 @@ const Services = () => {
     <div className="services-main-card">
       {/* <img src="/images/e9daeefbe1.jpg" alt="" /> */}
       <div className="services-first-card-line">
-        <span></span>
+        {/* <span></span> */}
         <h3>SERVICES</h3>
       </div>
       <h1>We Provide Any Business</h1>
@@ -16,7 +16,7 @@ const Services = () => {
       </h1>
       <div className="all-services-main-card">
         <div className="all-services-single-card">
-          <TbDeviceImacCode size={50} color="#ff3c00" />
+          <TbDeviceImacCode size={50} color="##ff6600" />
           <h2>Web Site Development</h2>
           <span>Dramatically cultivate qualt user cebtric growth</span>
           <div className="all-services-single-card-button-card">
@@ -27,7 +27,7 @@ const Services = () => {
         </div>
         {/* second */}
         <div className="all-services-single-card">
-          <TbDeviceImacCode size={50} color="#ff3c00" />
+          <TbDeviceImacCode size={50} color="##ff6600" />
           <h2>Software Development</h2>
           <span>Dramatically cultivate qualt user cebtric growth</span>
           <div className="all-services-single-card-button-card">
@@ -38,7 +38,7 @@ const Services = () => {
         </div>
         {/* third */}
         <div className="all-services-single-card">
-          <TbDeviceImacCode size={50} color="#ff3c00" />
+          <TbDeviceImacCode size={50} color="##ff6600" />
           <h2>Mobile App Development</h2>
           <span>Dramatically cultivate qualt user cebtric growth</span>
           <div className="all-services-single-card-button-card">
@@ -49,7 +49,7 @@ const Services = () => {
         </div>
         {/* fouth */}
         <div className="all-services-single-card">
-          <TbDeviceImacCode size={50} color="#ff3c00" />
+          <TbDeviceImacCode size={50} color="##ff6600" />
           <h2>Database Management</h2>
           <span>Dramatically cultivate qualt user cebtric growth</span>
           <div className="all-services-single-card-button-card">

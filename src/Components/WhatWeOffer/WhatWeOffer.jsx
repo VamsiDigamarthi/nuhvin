@@ -6,7 +6,7 @@ export const WhatWeOffer = () => {
   return (
     <div className="what-we-offers">
       <div className="services-first-card-line">
-        <span></span>
+        {/* <span></span> */}
         <h3>What we Offer</h3>
       </div>
       <div className="what-we-offers-text-card">
@@ -48,11 +48,12 @@ export const WhatWeOffer = () => {
             {/* <img src="/images/istockphoto-1424057426-1024x1024.jpg" alt="" /> */}
             <span>Our Training</span>
             <h3>By joining us, you will get a positive learing.....</h3>
-
-            <div className="what-we-offers-button-card">
-              <span>Read me</span>
-              <GoPlus />
-            </div>
+            <Link to="/our-services" className="sabout-link-card">
+              <div className="what-we-offers-button-card">
+                <span>Read me</span>
+                <GoPlus />
+              </div>
+            </Link>
           </div>
         </div>
         {/* third */}
@@ -63,10 +64,12 @@ export const WhatWeOffer = () => {
             {/* <img src="/images/istockphoto-1424057426-1024x1024.jpg" alt="" /> */}
             <span>Our Industries</span>
             <h3>We offers innovative business solutions to.....</h3>
-            <div className="what-we-offers-button-card">
-              <span>Read me</span>
-              <GoPlus />
-            </div>
+            <Link to="/our-services" className="sabout-link-card">
+              <div className="what-we-offers-button-card">
+                <span>Read me</span>
+                <GoPlus />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Testimonials = () => {
     <div className="testimonial-card">
       <div className="testimonial-left-card">
         <div className="services-first-card-line">
-          <span></span>
+          {/* <span></span> */}
           <h3>TESTIMONIALS</h3>
         </div>
         <h1 className="stroke-text ">What They</h1>

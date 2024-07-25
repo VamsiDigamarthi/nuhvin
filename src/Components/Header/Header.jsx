@@ -4,16 +4,16 @@ import { Link, NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
 const Header = () => {
-  const [backgroundColor, setBackgroundColor] = useState(""); // default background color
+  const [backgroundColor, setBackgroundColor] = useState("#0c1a1a"); // default background color
   const [hamborIcons, setHamborIcons] = useState(false);
   const scrollThreshold = window.innerHeight;
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
+      const scrollPosition = window.scrollY + 50;
       if (scrollPosition >= scrollThreshold) {
         setBackgroundColor("#fff"); // change to desired background color
       } else {
-        setBackgroundColor("inherit"); // reset to default background color
+        setBackgroundColor("#0c1a1a"); // reset to default background color
       }
     };
 

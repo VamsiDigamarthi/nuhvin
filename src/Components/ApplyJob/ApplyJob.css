@@ -28,3 +28,16 @@
   color: grey;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+@media (max-width: 767px) {
+  .apply-now-job-form-desc-main-card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .apply-now-job-form-desc-main-left-card {
+    width: 100%;
+  }
+  .apply-now-job-form-desc-main-right-card {
+    width: 100%;
+  }
+}

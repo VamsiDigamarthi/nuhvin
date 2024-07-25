@@ -17,7 +17,7 @@
 .our-stories-second-card > button {
   width: 120px;
   height: 40px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -49,7 +49,7 @@
 }
 
 .all-services-main-first-card > p {
-  color: #ff3c00;
+  color: #ff6600;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -116,7 +116,7 @@
 
 .all-services-each-card-button {
   width: 100%;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   padding: 10px 5px;
   height: 40px;
   display: flex;
@@ -151,7 +151,7 @@
   top: -20px;
   left: 50%;
   translate: -50%;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   padding: 7px 15px;
   font-size: 20px;
   font-weight: bold;

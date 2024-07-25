@@ -11,7 +11,7 @@ const OurVisition = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>Our Visition</h3>
           </div>
           <h1>What we say to Our people</h1>
@@ -123,7 +123,7 @@ const OurVisition = () => {
           className="our-stories-third-card-parents-right-card"
         >
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>FUTURE</h3>
           </div>
           <h1>

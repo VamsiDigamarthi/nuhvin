@@ -16,7 +16,7 @@ const HowItsWork = () => {
       </div>
       <div className="how-its-work-right-side">
         <div className="services-first-card-line">
-          <span></span>
+          {/* <span></span> */}
           <h3>OUR VALUES</h3>
         </div>
         <h1>Value We Give You</h1>

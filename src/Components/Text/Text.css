@@ -23,11 +23,11 @@
 
 .text-main > h1 {
   width: fit-content;
-  /* border-bottom: 3px solid #ff3c00; */
+  /* border-bottom: 3px solid #ff6600; */
 }
 
 .shero-span-color {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .text-main > p {
@@ -43,7 +43,7 @@
 .text-main > button {
   width: 170px;
   height: 40px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 20px;
   border: none;
   outline: none;

@@ -9,10 +9,10 @@ const SecondAbout = () => {
       {/* left side */}
 
       <div className="awesome">
-        <div className="services-first-card-line">
-          <span></span>
+        {/* <div className="services-first-card-line">
+         
           <h3>About NGS </h3>
-        </div>
+        </div> */}
         <h1>The Fastest Way To Achieve</h1>
         <h1>
           Your Business <span className="shero-span-color">Success</span>
@@ -43,36 +43,13 @@ const SecondAbout = () => {
           </Link>
         </div>
       </div>
-
-      {/* right side */}
-
-      <div className="w-right">
-        <motion.div
-          initial={{ rotate: 45 }}
-          whileHover={{ rotate: 0 }}
-          viewport={{ margin: "-40px" }}
-          transition={{ duration: 2.5, type: "spring" }}
-          className="w-mainCircle"
-        >
-          <div className="w-secCircle">
-            {/* <img src="/images/ngs-logo.png" alt="" /> */}
-          </div>
-          <div className="w-secCircle">{/* <img src={Fiverr} alt="" /> */}</div>
-          <div className="w-secCircle">
-            {/* <img src={Amazon} alt="" /> */}
-            <img src="/images/ngs-logo.png" alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            {/* <img src={Shopify} alt="" /> */}
-          </div>
-          <div className="w-secCircle">
-            {/* <img src={Facebook} alt="" /> */}
-          </div>
-        </motion.div>
-        {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
+      <div className="second-about-right-side">
+        <img
+          src="/images/WhatsApp_Image_2024-07-24_at_6.26.33_PM-removebg-preview.png"
+          alt=""
+        />
       </div>
+      {/* right side */}
     </div>
   );
 };

@@ -10,7 +10,7 @@
 }
 
 /* .header-nav-links > :nth-child(1) {
-  background-image: linear-gradient(to right, #ff3c00, #ff7e5f);
+  background-image: linear-gradient(to right, #ff6600, #ff7e5f);
   -webkit-background-clip: text; 
   background-clip: text;
   color: transparent;
@@ -23,6 +23,7 @@
   align-items: center;
   margin-top: 60px;
   height: calc(100vh - 80px);
+  position: relative;
 }
 
 .shero-second-left-card {
@@ -36,6 +37,7 @@
   /* border: 2px solid red; */
   align-items: flex-start;
   justify-content: center;
+  z-index: 2;
 }
 
 .s-hero-working-with-ngs-card {
@@ -51,7 +53,7 @@
 .s-hero-working-with-ngs-card > span {
   width: 50px;
   height: 2px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
 }
 
 .shero-second-left-card > h1 {
@@ -78,13 +80,24 @@
 .shero-small-span-animated-parent-div-moving-span {
   width: 25px;
   height: 100%;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   position: absolute;
   animation: move 4s linear infinite;
 }
 
 .shero-span-color {
-  color: #ff3c00;
+  color: #ff6600;
+}
+
+.shero-second-main-card > img {
+  width: 130vw;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  z-index: 1;
+  /* transform: rotate(10deg); */
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease;
 }
 
 @keyframes move {
@@ -108,7 +121,7 @@
 .shero-left-button-card > :nth-child(1) {
   width: 220px;
   height: 55px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -163,7 +176,7 @@
 .shero-second-right-orange-circle-card {
   width: 80%;
   height: 410px;
-  border: 3px solid #ff3c00;
+  border: 3px solid #ff6600;
   border-radius: 20px;
   position: absolute;
   z-index: 1;

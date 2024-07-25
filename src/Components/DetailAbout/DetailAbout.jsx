@@ -9,8 +9,6 @@ export const DetailAbout = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
-
             <h3>Discover NGS</h3>
           </div>
           <h1>What we say to Our people</h1>
@@ -51,7 +49,7 @@ export const DetailAbout = () => {
       <div className="detail-about-second-card">
         <h1>
           What <span className="shero-span-color">motivates</span> us to do what
-          we do
+          we do ..?
         </h1>
         <p>
           By transforming and shaping the future through business outcomes,
@@ -86,7 +84,7 @@ export const DetailAbout = () => {
         </div>
         <div className="details-abput-third-card-right-side">
           <div className="details-about-third-card-right-side-ornage-container">
-            <span></span>
+            {/* <span></span> */}
             <h3>The way we see</h3>
           </div>
           <motion.h1
@@ -109,7 +107,11 @@ export const DetailAbout = () => {
             technology fully enhances human potential.
           </p>
           <button className="detail-about-all-button">
-            <Link style={{ color: "#fff" }} className="sabout-link-card">
+            <Link
+              style={{ color: "#fff" }}
+              to="/out-visition"
+              className="sabout-link-card"
+            >
               Ngs Vision
             </Link>
           </button>
@@ -119,7 +121,6 @@ export const DetailAbout = () => {
       <div className="detail-about-third-card">
         <div className="details-abput-third-card-right-side new-detail-about-third-card-m">
           <div className="details-about-third-card-right-side-ornage-container">
-            <span></span>
             <h3>We Strive to achieve our quest</h3>
           </div>
           <motion.h1
@@ -143,7 +144,11 @@ export const DetailAbout = () => {
             accessible and beneficial for everyone.
           </p>
           <button className="detail-about-all-button">
-            <Link style={{ color: "#fff" }} className="sabout-link-card">
+            <Link
+              style={{ color: "#fff" }}
+              to="/out-mission"
+              className="sabout-link-card"
+            >
               Ngs Mission
             </Link>
           </button>
@@ -195,7 +200,6 @@ export const DetailAbout = () => {
         </div>
         <div className="details-abput-third-card-right-side">
           <div className="details-about-third-card-right-side-ornage-container">
-            <span></span>
             <h3>Our values</h3>
           </div>
           <motion.h1
@@ -228,7 +232,7 @@ export const DetailAbout = () => {
       <div className="detail-about-third-card">
         <div className="details-abput-third-card-right-side new-detail-about-third-card-m">
           <div className="details-about-third-card-right-side-ornage-container">
-            <span></span>
+            {/* <span></span> */}
             <h3>Our Goals</h3>
           </div>
           <motion.h1
@@ -271,7 +275,7 @@ export const DetailAbout = () => {
       {/*  */}
       <div className="detail-about-second-card new-details-second-card-heiht">
         <h1>
-          Our <span className="shero-span-color">approach</span>
+          Our <span className="shero-span-color">Approach</span>
         </h1>
         <p>
           The unwavering quest for a better future for people, is essential to
@@ -293,7 +297,7 @@ export const DetailAbout = () => {
         <p>
           By creating affinity groups and an allyship program, we are creating
           an environment where everyone feels valued and addressing the
-          underrepresentation of marginalized groups. They foster a sense of
+          underrepresentation of marginalized groups. This foster a sense of
           community where individuals can come together and share thoughts and
           experiences.
         </p>

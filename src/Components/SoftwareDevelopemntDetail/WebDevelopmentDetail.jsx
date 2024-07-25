@@ -12,7 +12,7 @@ const SoftwareDevelopemtDetail = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>Our Story</h3>
           </div>
           <h1>What we say to Our people</h1>

@@ -52,7 +52,7 @@
 }
 
 .abou-points-section > span {
-  background-color: #ff3c00;
+  background-color: #ff6600;
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -69,7 +69,7 @@
 }
 
 .shero-span-color {
-  color: #ff3c00;
+  color: #ff6600;
 }
 
 .about-right-side-card > span {
@@ -87,7 +87,7 @@
 
 .about-learn-more-button-card {
   width: 200px;
-  background-color: #ff3c00;
+  background-color: #ff6600;
   border-radius: 30px;
   padding: 10px 20px;
   display: flex;
