@@ -213,10 +213,10 @@ export const AndriodDevDetail = () => {
           transition={{ ...transition, duration: 2 }}
           className="our-stories-third-card-parents-right-card"
         >
-          <div className="our-stories-fisrt-card-our-story-text">
+          {/* <div className="our-stories-fisrt-card-our-story-text">
             <span></span>
             <h3>FUTURE</h3>
-          </div>
+          </div> */}
           <h1>
             The way we <span className="shero-span-color">work</span>
           </h1>

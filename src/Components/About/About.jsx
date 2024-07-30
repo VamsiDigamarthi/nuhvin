@@ -3,6 +3,8 @@ import "./About.css";
 import { PiSealCheckBold } from "react-icons/pi";
 import { PiPlusCircleFill } from "react-icons/pi";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa6";
 export const About = () => {
   const transition = { type: "spring", duration: 1 };
   return (
@@ -78,6 +80,26 @@ export const About = () => {
             <PiPlusCircleFill size={25} />
           </div>
         </div> */}
+        <div className="awesome-button-card">
+          <Link to="/out-story" className="sabout-link-card">
+            <div className="awesome-single-button-card">
+              <button>Our Story</button>
+              <FaArrowRight size={20} color="#fff" />
+            </div>
+          </Link>
+          <Link to="/out-visition" className="sabout-link-card">
+            <div className="awesome-single-button-card">
+              <button>Our Vision</button>
+              <FaArrowRight size={20} color="#fff" />
+            </div>
+          </Link>
+          <Link to="/out-mission" className="sabout-link-card">
+            <div className="awesome-single-button-card">
+              <button>Our Mission</button>
+              <FaArrowRight size={20} color="#fff" />
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -93,11 +93,13 @@ const Devops = () => {
         </div>
         <div className="all-services-each-card">
           <div className="services-each-single-card">
-            <h2>Cloud Security</h2>
+            <h2 style={{ textAlign: "center" }}>
+              Continuous Integration and Deployment
+            </h2>
             <p>
-              We gauge the safety of the cloud environment to make sure accurate
-              set up access restrictions, and information security measures are
-              in place.
+              We utilize CI/CD pipelines for automating software development,
+              testing, and deployment, which results in quicker and more solid
+              releases.
             </p>
 
             {/* <span>01</span>
@@ -109,11 +111,12 @@ const Devops = () => {
           </div>
           {/* Software development */}
           <div className="services-each-single-card">
-            <h2 style={{ textAlign: "center" }}>Application Security</h2>
+            <h2 style={{ textAlign: "center" }}>Infrastructure as code</h2>
             <p>
-              We do comprehensive security evaluations on your apps, detecting
-              possible vulnerabilities and recommending mitigation techniques to
-              prevent cyberattacks.
+              We utilize infrastructure automation technologies like Terraform
+              and Ansible in order to generate and manage technology-related
+              resources as code, permitting us to keep growing and remain
+              flexible.
             </p>
 
             {/* <span>02</span>
@@ -125,11 +128,11 @@ const Devops = () => {
           </div>
           {/* Web development */}
           <div className="services-each-single-card">
-            <h2 style={{ textAlign: "center" }}>API Security</h2>
+            <h2 style={{ textAlign: "center" }}>Monitoring and Logging</h2>
             <p>
-              We assess the safety associated with your APIs, assuring safe
-              authentication, authorization, and protection against typical API
-              vulnerabilities
+              We use sophisticated monitoring and logging systems, that include
+              ELK stack , Grafana, and the Prometheus, to give instantaneous
+              insight into your systems and services.
             </p>
 
             {/* <span>03</span>
@@ -141,11 +144,13 @@ const Devops = () => {
           </div>
           {/* Mobile development */}
           <div className="services-each-single-card">
-            <h2 style={{ textAlign: "center" }}>Infrastructure security</h2>
+            <h2 style={{ textAlign: "center" }}>
+              Containerization Orchestration
+            </h2>
             <p>
-              We evaluate the security of your network infrastructure, including
-              firewalls, routers, and switches, to discover potential
-              vulnerabilities and improve your overall safety stance.
+              We use both Kubernetes and Docker to isolate your applications and
+              effectively manage containerized workloads, enabling flexibility
+              and mobility.
             </p>
 
             {/* <span>04</span>
@@ -157,45 +162,16 @@ const Devops = () => {
           </div>
           {/* E-commers service */}
           <div className="services-each-single-card">
-            <h2 style={{ textAlign: "center" }}>DB Gap Audit</h2>
+            <h2 style={{ textAlign: "center" }}>
+              Cloud Migration and Management
+            </h2>
             <p>
-              We We assess the database's security measures for assuring data
-              confidentiality, integrity, and availability, and offer solutions
-              to any gaps or vulnerabilities.
+              We enable you in migrating your infrastructure and apps to the
+              cloud, delivering smooth migrations as well as efficient
+              management using cloud platforms like AWS, Azure, or Google Cloud.
             </p>
 
             {/* <span>05</span>
-            <img
-              className="services-each-single-card-image-card"
-              src="/images/word.jpg"
-              alt=""
-            /> */}
-          </div>
-          <div className="services-each-single-card">
-            <h2>Infrastructure integrity</h2>
-            <p>
-              We assess the integrity of your infrastructure, ensuring that
-              appropriate safety measures are in existence to identify and avert
-              unwanted alterations or sabotage.
-            </p>
-
-            {/* <span>06</span>
-            <img
-              className="services-each-single-card-image-card"
-              src="/images/word.jpg"
-              alt=""
-            /> */}
-          </div>
-          <div className="services-each-single-card">
-            <h2>IData security</h2>
-            <p>
-              As a Cyber Security Company, we will look into your data
-              protection policies, such as secrecy, restrictions on access, as
-              well as data processing protocols, to protect confidential data
-              from unintentional access or exposure.
-            </p>
-
-            {/* <span>06</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
@@ -254,10 +230,10 @@ const Devops = () => {
           transition={{ ...transition, duration: 2 }}
           className="our-stories-third-card-parents-right-card"
         >
-          <div className="our-stories-fisrt-card-our-story-text">
+          {/* <div className="our-stories-fisrt-card-our-story-text">
             <span></span>
             <h3>FUTURE</h3>
-          </div>
+          </div> */}
           <h1>
             The way we <span className="shero-span-color">work</span>
           </h1>

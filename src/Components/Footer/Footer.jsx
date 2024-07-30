@@ -46,7 +46,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer-left-side">
         <div className="footer-company-logo-text-card">
-          <img src="/images/ngs-logo.png" alt="logo" />
+          <img src="/images/Frame 12.png" alt="logo" />
           <div>
             <p>
               is an online aggregator of financial products and services. We

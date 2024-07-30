@@ -111,7 +111,7 @@ export const DetailServices = () => {
             {/* <span>01</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/services_UI_UX.png"
+              src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4="
               alt=""
             />
           </motion.div>
@@ -141,7 +141,33 @@ export const DetailServices = () => {
             {/* <span>01</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/services_UI_UX.png"
+              src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
+              alt=""
+            />
+          </motion.div>
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Dev-Ops</h2>
+            <p className="serv-para">
+              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
+              lectus and posuere. Duis urna lacus. READ MORE
+            </p>
+            <Link to="/dev-ops" className="detail-service-link new-serv-link">
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GfftZ9uP4pj18-m7MU3wKBkroRibJfw8Jw&s"
               alt=""
             />
           </motion.div>

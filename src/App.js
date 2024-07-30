@@ -61,7 +61,7 @@ function App() {
                 {/* <HowItsWork /> */}
                 <About />
                 <ThirdSection />
-                <SecondAbout />
+                {/* <SecondAbout /> */}
                 <WhatWeOffer />
                 <Quality />
                 {/* <Image /> */}
