@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const slides = [
   {
     // image: "/images/second-section-second-image.jpg",
-    image: "/images/46.png",
+    image: "/images/16.png",
     heading: "24/7 Support - Get it",
     paragraph:
       "Start working with an company that provide everything you nedd to generate awareness, drive trafiic, connect with customers",
@@ -16,7 +16,7 @@ const slides = [
   },
   {
     image: "/images/1.png",
-    heading: "Level Up Your Skills Todaya",
+    heading: "Level Up Your Skills Today",
     paragraph:
       "Start working with an company that provide everything you need to generate awareness",
     pieces: { rows: 4, cols: 4 }, // 4x4 small squares
@@ -24,8 +24,7 @@ const slides = [
     link: "/our-services",
   },
   {
-    image:
-      "https://www.ediiie.com/blog/assets/admin/uploads/Virtual-Reality-Gaming.jpg",
+    image: "/images/33.png",
     heading: "What we Create",
     paragraph:
       "We specialize in creating websites, web applications, mobule applications, creating websites and page layouts, website design, online storage",
@@ -35,7 +34,7 @@ const slides = [
   },
   {
     image: "/images/41.png",
-    heading: "Level Up Your Skills Todaya",
+    heading: "Level Up Your Skills Today",
     paragraph:
       "Start working with an company that provide everything you need to generate awareness",
     pieces: { rows: 8, cols: 2 }, // 8x2 tall rectangles

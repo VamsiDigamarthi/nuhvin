@@ -55,15 +55,15 @@ export const Career = () => {
           What we <span className="shero-span-color">Say</span> to our people
         </h1>
         <p className="text-change">
-          NGS is a digital transformation company that focuses on experience and
-          can assist your business in achieving exponential growth by providing
-          outstanding engineered experiences to your customers and employees.
-          Our strategy is to merge human-centered design with the precision and
-          volume of real-time analytics, AI, cognitive technology, and
-          automation.
+          Nuhvin is a digital transformation company that focuses on experience
+          and can assist your business in achieving exponential growth by
+          providing outstanding engineered experiences to your customers and
+          employees. Our strategy is to merge human-centered design with the
+          precision and volume of real-time analytics, AI, cognitive technology,
+          and automation.
         </p>
         <p className="text-change">
-          NGS is a digitization company that provides exclusivity. We are the
+          Nuhvin is a digitization company that provides exclusivity. We are the
           driving force behind the experience. Colossus of today—the companies
           best known for the transformative experiences they deliver. Working
           with the best has provided us with much of our knowledge about great
@@ -93,17 +93,18 @@ export const Career = () => {
         <p className="text-change"></p>
       </div>
       {/* beware of text */}
-      <div className="detail-about-third-card">
-        <div className="details-abput-third-card-left-side">
-          <img src="/images/detail-about-first-imagesss.jpg" alt="" />
+      <div className="detail-about-third-card new-career-left-right-card">
+        <div className="details-abput-third-card-left-side new-carrer-left">
+          {/* <img src="/images/detail-about-first-imagesss.jpg" alt="" />
           <div>
             <img src="/images/rounded-detail-about-image.jpg" alt="" />
-          </div>
+          </div> */}
+          <img src="/images/alert fix.png" alt="" />
         </div>
         <div className="details-abput-third-card-right-side">
-          <div className="details-about-third-card-right-side-ornage-container">
+          {/* <div className="details-about-third-card-right-side-ornage-container">
             <h3>The way we see</h3>
-          </div>
+          </div> */}
           <h1>
             Beware of <span className="shero-span-color">Fake.</span>
             offers
@@ -112,15 +113,15 @@ export const Career = () => {
             Engineering <span className="shero-span-color">Capacity.</span>
           </h1> */}
           <p>
-            Protect yourself from fraudulent activities. NGS is commited to
-            transparency and integrity. NGS never charges candidates a fee to
+            Protect yourself from fraudulent activities. Nuhvin is commited to
+            transparency and integrity. Nuhvin never charges candidates a fee to
             participate in our recruitment process.
           </p>
           <p>
             Be cautious of unsolicited emails or messages claiming to be from
-            NGS, offering exclusive deals or opportunities. These often come
+            Nuhvin, offering exclusive deals or opportunities. These often come
             from various social media sites or chat rooms or groups with people
-            posing as NGS Recruiters or Managers.
+            posing as Nuhvin Recruiters or Managers.
           </p>
           <p>
             Official communications will only come through our verified

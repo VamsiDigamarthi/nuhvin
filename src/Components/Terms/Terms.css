@@ -1,0 +1,41 @@
+.terms {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.terms-main-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 30px 60px;
+}
+
+.terms-main-card > h2,
+h3 {
+  color: #0c1a1a;
+}
+
+.terms-main-card > p {
+  color: grey;
+  letter-spacing: 1px;
+  font-size: 17px;
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.terms-main-card > p > span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #0c1a1a;
+}
+
+.terms-main-card > ul {
+  list-style-type: disc;
+  margin-left: 60px;
+  color: grey;
+}
+
+.terms-main-card > ul > li > span {
+  font-weight: 600;
+}

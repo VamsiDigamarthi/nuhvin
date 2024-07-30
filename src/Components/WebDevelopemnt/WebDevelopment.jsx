@@ -59,8 +59,8 @@ const WebDevelopment = () => {
           industries can turn to our global professional services firm.
         </p>
         <p>
-          NGS work with forward-thinking global corporations to transform their
-          most pressing issues into opportunities, resilience, and growth.
+          Nuhvin work with forward-thinking global corporations to transform
+          their most pressing issues into opportunities, resilience, and growth.
         </p>
         <p>
           The construction of hyper-local supply chains is part of this process
@@ -96,12 +96,12 @@ const WebDevelopment = () => {
               functionality expectations.
             </p>
 
-            <span>01</span>
-            <img
+            {/* <span>01</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* Software development */}
           <motion.div
@@ -118,12 +118,12 @@ const WebDevelopment = () => {
               and sets clear expectations for the project.
             </p>
 
-            <span>02</span>
-            <img
+            {/* <span>02</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* Web development */}
           <motion.div
@@ -141,12 +141,12 @@ const WebDevelopment = () => {
               for feedback and validation.
             </p>
 
-            <span>03</span>
-            <img
+            {/* <span>03</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* Mobile development */}
           <motion.div
@@ -163,12 +163,12 @@ const WebDevelopment = () => {
               maintainable code to ensure long-term success and flexibility.
             </p>
 
-            <span>04</span>
-            <img
+            {/* <span>04</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* E-commers service */}
           <motion.div
@@ -187,12 +187,12 @@ const WebDevelopment = () => {
               compatibility testing across different devices and browsers.
             </p>
 
-            <span>05</span>
-            <img
+            {/* <span>05</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           <motion.div
             initial="offscreen"
@@ -209,12 +209,12 @@ const WebDevelopment = () => {
               available to address any concerns or enhancements post-deployment.
             </p>
 
-            <span>06</span>
-            <img
+            {/* <span>06</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
@@ -235,7 +235,7 @@ const WebDevelopment = () => {
           software that is of the highest caliber. Acquire a market edge over
           competitors.
         </p>
-        <button>Ngs Quality</button>
+        <button>Nuhvin Quality</button>
       </div>
       <div className="our-stories-third-card-parents">
         <motion.div

@@ -28,6 +28,10 @@
   /* border: 2px solid red; */
 }
 
+.services-first-card-line > h3 {
+  color: #ff6600 !important;
+}
+
 .services-first-card-line > span {
   width: 50px;
   height: 2px;

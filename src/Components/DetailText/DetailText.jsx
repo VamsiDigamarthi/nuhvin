@@ -21,16 +21,9 @@ const DetailText = () => {
           <motion.h1
             initial={{ x: -200 }}
             whileInView={{ x: 0 }}
-            transition={{ ...transition, duration: 1 }}
-          >
-            Discover NGS IT
-          </motion.h1>
-          <motion.h1
-            initial={{ x: -200 }}
-            whileInView={{ x: 0 }}
             transition={{ ...transition, duration: 2 }}
           >
-            essentials that <br />
+            IT essentials that <br />
             <span className="shero-span-color">Revolutionize</span> business
           </motion.h1>
           <p>
@@ -79,9 +72,9 @@ const DetailText = () => {
               analyzing data to gain insights that can be used to improve
               business operations...
             </p>
-            <div className="details-text-single-icons-with-text-card-white-card">
+            {/* <div className="details-text-single-icons-with-text-card-white-card">
               <GiArtificialIntelligence size={40} color="#ff3c00" />
-            </div>
+            </div> */}
             <span className="details-text-single-card-arrow-card">
               <Link to="/software-developemnt-details">
                 <FiArrowDownRight size={25} color="#ff3c00" />
@@ -100,9 +93,9 @@ const DetailText = () => {
               analyzing data to gain insights that can be used to improve
               business operations...
             </p>
-            <div className="details-text-single-icons-with-text-card-white-card">
+            {/* <div className="details-text-single-icons-with-text-card-white-card">
               <CgWebsite size={40} color="#ff3c00" />
-            </div>
+            </div> */}
             <span className="details-text-single-card-arrow-card">
               <Link to="/web-details">
                 <FiArrowDownRight size={25} color="#ff3c00" />
@@ -122,9 +115,9 @@ const DetailText = () => {
               Proficiency in programming languages like Java or Swift is crucial
               for app development.
             </p>
-            <div className="details-text-single-icons-with-text-card-white-card">
+            {/* <div className="details-text-single-icons-with-text-card-white-card">
               <PiAndroidLogoFill size={40} color="#ff3c00" />
-            </div>
+            </div> */}
             <span className="details-text-single-card-arrow-card">
               <Link to="/andriod-details">
                 <FiArrowDownRight size={25} color="#ff3c00" />
@@ -142,9 +135,9 @@ const DetailText = () => {
               Security is the foundation of any IT infrastructure. It's
               essential to protect your business from cyberattacks,
             </p>
-            <div className="details-text-single-icons-with-text-card-white-card">
+            {/* <div className="details-text-single-icons-with-text-card-white-card">
               <GrShieldSecurity size={40} color="#ff3c00" />
-            </div>
+            </div> */}
             <span className="details-text-single-card-arrow-card">
               <Link to="/database-management-details">
                 <FiArrowDownRight size={25} color="#ff3c00" />
@@ -162,11 +155,13 @@ const DetailText = () => {
               Cloud computing allows businesses to access software, storage, and
               other IT resources over the internet.
             </p>
-            <div className="details-text-single-icons-with-text-card-white-card">
+            {/* <div className="details-text-single-icons-with-text-card-white-card">
               <FaCloudArrowDown size={40} color="#ff3c00" />
-            </div>
+            </div> */}
             <span className="details-text-single-card-arrow-card">
-              <FiArrowDownRight size={25} color="#ff3c00" />
+              <Link to="/cloud-computing-details">
+                <FiArrowDownRight size={25} color="#ff3c00" />
+              </Link>
             </span>
           </motion.div>
         </div>

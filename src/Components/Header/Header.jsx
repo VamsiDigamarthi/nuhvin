@@ -6,14 +6,17 @@ import { RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [backgroundColor, setBackgroundColor] = useState("#0c1a1a"); // default background color
   const [hamborIcons, setHamborIcons] = useState(false);
+  const [imagePath, setImagePath] = useState("/images/Frame 12.png");
   const scrollThreshold = window.innerHeight;
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 50;
       if (scrollPosition >= scrollThreshold) {
         setBackgroundColor("#fff"); // change to desired background color
+        setImagePath("/images/Frame 11.png");
       } else {
         setBackgroundColor("#0c1a1a"); // reset to default background color
+        setImagePath("/images/Frame 12.png");
       }
     };
 
@@ -29,11 +32,7 @@ const Header = () => {
       style={{ backgroundColor, transition: "background-color 0.3s ease" }}
     >
       <Link to="/">
-        <img
-          className="header-nav-logo-image"
-          src="/images/ngs-logo.png"
-          alt="logo"
-        />
+        <img className="header-nav-logo-image" src={imagePath} alt="logo" />
       </Link>
       <div className="header-nav-links">
         <NavLink

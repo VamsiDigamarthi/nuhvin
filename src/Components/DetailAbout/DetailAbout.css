@@ -200,6 +200,11 @@
   overflow: hidden;
 }
 
+.details-abput-third-card-left-side > div > img {
+  width: 100%;
+  height: 100%;
+}
+
 /*  */
 
 .details-abput-third-card-right-side {

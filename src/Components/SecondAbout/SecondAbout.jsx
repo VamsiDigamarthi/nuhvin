@@ -10,7 +10,6 @@ const SecondAbout = () => {
 
       <div className="awesome">
         {/* <div className="services-first-card-line">
-         
           <h3>About NGS </h3>
         </div> */}
         <h1>The Fastest Way To Achieve</h1>
@@ -44,10 +43,7 @@ const SecondAbout = () => {
         </div>
       </div>
       <div className="second-about-right-side">
-        <img
-          src="/images/WhatsApp_Image_2024-07-24_at_6.26.33_PM-removebg-preview.png"
-          alt=""
-        />
+        <img src="/images/home screen bussiess success image (2).png" alt="" />
       </div>
       {/* right side */}
     </div>

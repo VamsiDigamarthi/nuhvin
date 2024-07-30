@@ -58,8 +58,8 @@ const DatabseManagementDetail = () => {
           industries can turn to our global professional services firm.
         </p>
         <p>
-          NGS work with forward-thinking global corporations to transform their
-          most pressing issues into opportunities, resilience, and growth.
+          Nuhvin work with forward-thinking global corporations to transform
+          their most pressing issues into opportunities, resilience, and growth.
         </p>
         <p>
           The construction of hyper-local supply chains is part of this process
@@ -80,8 +80,8 @@ const DatabseManagementDetail = () => {
             Information & <span className="shero-span-color">Technologies</span>
           </h1>
           <span className="andriod-dev-dummytext">
-            NGS provides complete Database Management System (DBMS) services and
-            solutions that aim to improve data management and company
+            Nuhvin provides complete Database Management System (DBMS) services
+            and solutions that aim to improve data management and company
             operations. We deliver personalized DBMS solutions that correspond
             with our clients' specific requirements and targets, drawing on our
             knowledge in database design, installation, and optimization. We
@@ -89,7 +89,7 @@ const DatabseManagementDetail = () => {
             and integration, testing, deployment, and continuing maintenance. We
             rigorously test, optimize, and maintain our clients' databases to
             guarantee their security, integrity, and efficiency. With an
-            emphasis on providing dependable and scalable DBMS solutions, NGS
+            emphasis on providing dependable and scalable DBMS solutions, Nuhvin
             enables organizations to properly exploit their data streams and
             achieve organizational success.
           </span>
@@ -98,18 +98,18 @@ const DatabseManagementDetail = () => {
           <div className="services-each-single-card">
             <h2>Requirement Analysis</h2>
             <p>
-              NGS conducts a thorough analysis of the client's business
+              Nuhvin conducts a thorough analysis of the client's business
               requirements, data needs, and objectives for implementing a DBMS.
               And we collaborate closely with stakeholders to understand
               specific data management challenges and goals.
             </p>
 
-            <span>01</span>
+            {/* <span>01</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </div>
           {/* Software development */}
           <div className="services-each-single-card">
@@ -117,36 +117,36 @@ const DatabseManagementDetail = () => {
               Database Design and Planning
             </h2>
             <p>
-              Based on the requirements gathered, NGS designs a tailored
+              Based on the requirements gathered, Nuhvin designs a tailored
               database solution that aligns with the client's business processes
               and data models. We plan the database schema, tables,
               relationships, and data structures to optimize performance and
               scalability.
             </p>
 
-            <span>02</span>
+            {/* <span>02</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </div>
           {/* Web development */}
           <div className="services-each-single-card">
             <h2 style={{ textAlign: "center" }}>Database Implementation</h2>
             <p>
-              NGS implements the designed database solution, configuring the
+              Nuhvin implements the designed database solution, configuring the
               DBMS software and setting up the necessary infrastructure. We
               ensure proper data normalization, indexing, and optimization to
               enhance data retrieval and manipulation efficiency
             </p>
 
-            <span>03</span>
+            {/* <span>03</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </div>
           {/* Mobile development */}
           <div className="services-each-single-card">
@@ -154,19 +154,19 @@ const DatabseManagementDetail = () => {
               Data Migration and Integration
             </h2>
             <p>
-              NGS facilitates the seamless migration of data from legacy systems
-              or other sources to the newly implemented database. We ensure data
-              integrity and consistency throughout the migration process and
-              integrate the database with existing systems and applications as
-              needed.
+              Nuhvin facilitates the seamless migration of data from legacy
+              systems or other sources to the newly implemented database. We
+              ensure data integrity and consistency throughout the migration
+              process and integrate the database with existing systems and
+              applications as needed.
             </p>
 
-            <span>04</span>
+            {/* <span>04</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </div>
           {/* E-commers service */}
           <div className="services-each-single-card">
@@ -174,19 +174,19 @@ const DatabseManagementDetail = () => {
               Testing and Quality Assurance
             </h2>
             <p>
-              NGS conducts comprehensive testing of the DBMS solution to
+              Nuhvin conducts comprehensive testing of the DBMS solution to
               validate functionality, performance, and data integrity and we
               perform various tests, including unit testing, integration
               testing, and performance testing, to identify and resolve any
               issues or bottlenecks.
             </p>
 
-            <span>05</span>
+            {/* <span>05</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </div>
           <div className="services-each-single-card">
             <h2>Deployment and Support</h2>
@@ -197,12 +197,12 @@ const DatabseManagementDetail = () => {
               and optimized for performance.
             </p>
 
-            <span>06</span>
+            {/* <span>06</span>
             <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@ const DatabseManagementDetail = () => {
           software that is of the highest caliber. Acquire a market edge over
           competitors.
         </p>
-        <button>Ngs Quality</button>
+        <button>Nuhvin Quality</button>
       </div>
       <div className="our-stories-third-card-parents">
         <motion.div

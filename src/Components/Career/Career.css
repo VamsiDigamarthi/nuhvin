@@ -19,6 +19,18 @@
   position: relative;
 }
 
+.new-career-left-right-card {
+  margin-top: 40px;
+}
+.new-carrer-left {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+
+.new-carrer-left > img {
+  width: 80% !important;
+}
+
 .text-change {
   text-align: justify !important;
 }

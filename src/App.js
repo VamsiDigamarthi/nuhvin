@@ -35,6 +35,13 @@ import DatabseManagementDetail from "./Components/DatabaseManagementDetail/Datab
 import ScrollToTopOnRouteChange from "./ScrollToTopOnRouteChange";
 // import Image from "./Components/Image/Image";
 import AdvancedSlider from "./Components/Slider/Slider";
+import Terms from "./Components/Terms/Terms";
+import Privacy from "./Components/Privacy/Privacy";
+import JobForm from "./Components/JobForm/JobForm";
+import Services from "./Components/Services/Services";
+import CyberSercurity from "./Components/CyberDetails/CyberDetails";
+import Ai from "./Components/Ai/Ai";
+import Devops from "./Components/Devops/Devops";
 
 function App() {
   return (
@@ -52,8 +59,8 @@ function App() {
                 <Text />
                 {/* <Services /> */}
                 {/* <HowItsWork /> */}
-                <ThirdSection />
                 <About />
+                <ThirdSection />
                 <SecondAbout />
                 <WhatWeOffer />
                 <Quality />
@@ -83,6 +90,12 @@ function App() {
             path="/database-management-details"
             element={<DatabseManagementDetail />}
           />
+          <Route path="/terms-conditions" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/job-form" element={<JobForm />} />
+          <Route path="/cloud-computing-details" element={<CyberSercurity />} />
+          <Route path="/ai" element={<Ai />} />
+          <Route path="/dev-ops" element={<Devops />} />
         </Routes>
         <Footer />
       </div>

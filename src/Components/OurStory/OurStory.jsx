@@ -55,15 +55,15 @@ export const OurStory = () => {
           What We <span className="shero-span-color">Say</span> to our People
         </h2>
         <p>
-          NGS is a digital transformation company that focuses on experience and
-          can assist your business in achieving exponential growth by providing
-          outstanding engineered experiences to your customers and employees.
-          Our strategy is to merge human-centered design with the precision and
-          volume of real-time analytics, AI, cognitive technology, and
-          automation.
+          Nuhvin is a digital transformation company that focuses on experience
+          and can assist your business in achieving exponential growth by
+          providing outstanding engineered experiences to your customers and
+          employees. Our strategy is to merge human-centered design with the
+          precision and volume of real-time analytics, AI, cognitive technology,
+          and automation.
         </p>
         <p>
-          NGS is a digitization company that provides exclusivity. We are the
+          Nuhvin is a digitization company that provides exclusivity. We are the
           driving force behind the experience. Colossus of today—the companies
           best known for the transformative experiences they deliver. Working
           with the best has provided us with much of our knowledge about great
@@ -123,7 +123,7 @@ export const OurStory = () => {
           className="our-stories-third-card-parents-right-card"
         >
           <div className="our-stories-fisrt-card-our-story-text">
-            <span></span>
+            {/* <span></span> */}
             <h3>FUTURE</h3>
           </div>
           <h1>

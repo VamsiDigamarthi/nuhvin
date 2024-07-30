@@ -2,8 +2,52 @@ import React from "react";
 import "./DetailCareer.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const transition = { type: "spring", duration: 1 };
 const DetailCareer = () => {
+  const navigate = useNavigate();
+  const jobData = [
+    {
+      title: "React/Angular  Developer",
+      country: "India",
+      location: "Hyderabad",
+      experinceLevel: "2+ yrs",
+      contractType: "Full Time",
+    },
+    {
+      title: "Python Developer",
+      country: "Inida",
+      location: "Hyderabad",
+      experinceLevel: "2+ yrs",
+      contractType: "Full Time",
+    },
+    // {
+    //   title: "Java Developer",
+    //   country: "India",
+    //   location: "Hyderabad",
+    //   experinceLevel: "Fresher",
+    //   contractType: "Contract Based",
+    // },
+    // {
+    //   title: "Cloud Engineer",
+    //   country: "India",
+    //   location: "Hyderabad",
+    //   experinceLevel: "2+ yrs",
+    //   contractType: "Full Time",
+    // },
+    {
+      title: "Mobile App Developer",
+      country: "India",
+      location: "Hyderabad",
+      experinceLevel: "2+ yrs",
+      contractType: "Contract Based",
+    },
+  ];
+
+  const onSelecetTitle = (title) => {
+    navigate("/apply-job", { state: { title: title } });
+  };
+
   return (
     <div className="detail-career-main">
       <div className="our-stories-first-card">
@@ -49,30 +93,39 @@ const DetailCareer = () => {
       </div>
       <div className="detail-career-table">
         <h1>Rewrite your future. Search and apply for a job today.</h1>
-        <div className="carrer-scrolling-view">
-          <div className="detail-career-page-table-main">
-            <div className="detail-carrer-page-table-header">
-              <span>Job Name</span>
-              <span>Location</span>
-              <span>Experince Level</span>
-              <span>Contract Type</span>
+        <div className="country-filter-card">
+          <select>
+            <option value="">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+          </select>
+        </div>
+        <div className="job-table">
+          <div className="carrer-scrolling-view">
+            <div className="detail-career-page-table-main">
+              <div className="detail-carrer-page-table-header">
+                <span>Job Name</span>
+                <span>Country</span>
+                <span>Location</span>
+                <span>Experince Level</span>
+                <span>Contract Type</span>
+              </div>
+              {jobData.map((job, key) => (
+                <div
+                  key={key}
+                  onClick={() => onSelecetTitle(job.title)}
+                  className="detail-career-page-table-body"
+                >
+                  <span>{job.title}</span>
+                  <span>{job.country}</span>
+                  <span>{job.location}</span>
+                  <span>{job.experinceLevel}</span>
+                  <span>{job.contractType}</span>
+                </div>
+              ))}
             </div>
-            <Link to="/apply-job" className="apply-job-link">
-              <div className="detail-career-page-table-body">
-                <span>Mobile App Developemnt</span>
-                <span>Hyderabad</span>
-                <span>6 month</span>
-                <span>Full-Time</span>
-              </div>
-            </Link>
-            <Link to="/apply-job" className="apply-job-link">
-              <div className="detail-career-page-table-body">
-                <span>Web Developer</span>
-                <span>Hyderabad</span>
-                <span>6 month</span>
-                <span>Regular</span>
-              </div>
-            </Link>
           </div>
         </div>
       </div>

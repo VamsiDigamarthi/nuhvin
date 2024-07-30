@@ -85,11 +85,11 @@ export const AndriodDevDetail = () => {
             Information & <span className="shero-span-color">Technologies</span>
           </h1>
           <span className="andriod-dev-dummytext">
-            NGS uses customized application development tools to satisfy the
-            specific requirements of businesses of all sizes. As a result, NGS
-            technology offers a broad variety of cross-platform application
-            development and other mobile application development services and
-            solutions.
+            Nuhvin uses customized application development tools to satisfy the
+            specific requirements of businesses of all sizes. As a result,
+            Nuhvin technology offers a broad variety of cross-platform
+            application development and other mobile application development
+            services and solutions.
           </span>
         </div>
         <div className="all-services-each-card">
@@ -101,18 +101,18 @@ export const AndriodDevDetail = () => {
           >
             <h2>Android App</h2>
             <p>
-              At NGS, our Android app development services are made to assist
+              At Nuhvin, our Android app development services are made to assist
               businesses in connecting with the millions of people that use
               Android devices on a regular basis. We are able to construct
               dependable, scalable,
             </p>
 
-            <span>01</span>
-            <img
+            {/* <span>01</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* Software development */}
           <motion.div
@@ -123,19 +123,19 @@ export const AndriodDevDetail = () => {
           >
             <h2 style={{ textAlign: "center" }}>IOS App</h2>
             <p>
-              NGS offers professional iOS app development services that make use
-              of cutting edge technology to produce aesthetically pleasing and
-              user-friendly apps for the iPhone, iPad, and other Apple devices.
-              The proficient developers on our team make excellent use of the
-              app development tools,
+              Nuhvin offers professional iOS app development services that make
+              use of cutting edge technology to produce aesthetically pleasing
+              and user-friendly apps for the iPhone, iPad, and other Apple
+              devices. The proficient developers on our team make excellent use
+              of the app development tools,
             </p>
 
-            <span>02</span>
-            <img
+            {/* <span>02</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* Web development */}
           <motion.div
@@ -146,19 +146,19 @@ export const AndriodDevDetail = () => {
           >
             <h2>Hybrid app</h2>
             <p>
-              At NGS, we understand that businesses must contact clients across
-              several platforms and devices. That's why we provide
+              At Nuhvin, we understand that businesses must contact clients
+              across several platforms and devices. That's why we provide
               cross-platform app development services, which enable clients to
               design a single program that can operate on numerous platforms,
               including iOS and Android.
             </p>
 
-            <span>03</span>
-            <img
+            {/* <span>03</span> */}
+            {/* <img
               className="services-each-single-card-image-card"
               src="/images/word.jpg"
               alt=""
-            />
+            /> */}
           </motion.div>
           {/* Mobile development */}
         </div>
@@ -180,7 +180,7 @@ export const AndriodDevDetail = () => {
           software that is of the highest caliber. Acquire a market edge over
           competitors.
         </p>
-        <button>Ngs Quality</button>
+        <button>Nuhvin Quality</button>
       </div>
       <div className="our-stories-third-card-parents">
         <motion.div

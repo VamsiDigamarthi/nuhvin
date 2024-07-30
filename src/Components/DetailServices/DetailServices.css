@@ -91,6 +91,9 @@
   gap: 1.5rem;
   padding: 30px;
   position: relative;
+  transition: all 1s ease;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .services-each-single-card > h2 {
   position: relative;
@@ -177,11 +180,31 @@
 
 .services-each-single-card:hover .services-each-single-card-image-card {
   /* display: block; */
-  opacity: 0.3;
+  opacity: 0.9;
+}
+.serv-h2 {
+  color: black;
+  transition: color 0.5s ease, top 0.5s ease, left 0.5s ease;
 }
 
-.services-each-single-card:hover .services-each-single-card > h2 {
-  color: #fff;
+.services-each-single-card:hover .serv-h2 {
+  color: #fff !important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.services-each-single-card:hover .serv-para {
+  display: none;
+}
+.new-serv-link {
+  transition: all 1s ease;
+}
+
+.services-each-single-card:hover .new-serv-link {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 .services-each-single-card:hover .services-each-single-card > p {

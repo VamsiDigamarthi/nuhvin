@@ -18,7 +18,7 @@ export const DetailServices = () => {
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
             {/* <span></span> */}
-            <h3>Ngs Services</h3>
+            <h3>Nuhvin Services</h3>
           </div>
           <h1>What we say to Our people</h1>
           <p>
@@ -76,7 +76,7 @@ export const DetailServices = () => {
           growth in this way.And never stop inventing
         </p>
         <p>to create amazing experiences that will pleasure us tomorrow.</p>
-        <button>Ngs Info</button>
+        <button>Nuhvin Info</button>
       </div>
 
       <div className="all-services-main-card">
@@ -88,18 +88,19 @@ export const DetailServices = () => {
           </h1>
         </div>
         <div className="all-services-each-card">
+          {/* ai */}
           <motion.div
             initial="offscreen"
             whileInView={"onscreen"}
             variants={container(0)}
             className="services-each-single-card"
           >
-            <h2>Ui/Ux Design</h2>
-            <p>
+            <h2 className="serv-h2">Artificial Intelligence(AI)</h2>
+            <p className="serv-para">
               Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
               lectus and posuere. Duis urna lacus. READ MORE
             </p>
-            <Link className="detail-service-link">
+            <Link to="/ai" className="detail-service-link new-serv-link">
               <div className="all-services-each-card-button">
                 <span>Read More</span>
                 <span>
@@ -107,10 +108,66 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            <span>01</span>
+            {/* <span>01</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/word.jpg"
+              src="/images/services_UI_UX.png"
+              alt=""
+            />
+          </motion.div>
+          {/* cloud */}
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Cybersecurity</h2>
+            <p className="serv-para">
+              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
+              lectus and posuere. Duis urna lacus. READ MORE
+            </p>
+            <Link
+              to="/cloud-computing-details"
+              className="detail-service-link new-serv-link"
+            >
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="/images/services_UI_UX.png"
+              alt=""
+            />
+          </motion.div>
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Ui/Ux Design</h2>
+            <p className="serv-para">
+              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
+              lectus and posuere. Duis urna lacus. READ MORE
+            </p>
+            <Link className="detail-service-link new-serv-link">
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="/images/services_UI_UX.png"
               alt=""
             />
           </motion.div>
@@ -121,13 +178,13 @@ export const DetailServices = () => {
             variants={container(0.1)}
             className="services-each-single-card"
           >
-            <h2>Software Development</h2>
-            <p>
+            <h2 className="serv-h2">Software Development</h2>
+            <p className="serv-para">
               Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
               lectus and posuere. Duis urna lacus. READ MORE
             </p>
             <Link
-              className="detail-service-link"
+              className="detail-service-link new-serv-link"
               to="/software-developemnt-details"
             >
               <div className="all-services-each-card-button">
@@ -137,10 +194,10 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            <span>02</span>
+            {/* <span>02</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/word.jpg"
+              src="/images/services_software development.png"
               alt=""
             />
           </motion.div>
@@ -151,12 +208,15 @@ export const DetailServices = () => {
             variants={container(0.2)}
             className="services-each-single-card"
           >
-            <h2>Web Development</h2>
-            <p>
+            <h2 className="serv-h2">Web Development</h2>
+            <p className="serv-para">
               Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
               lectus and posuere. Duis urna lacus. READ MORE
             </p>
-            <Link className="detail-service-link" to="/web-details">
+            <Link
+              className="detail-service-link new-serv-link"
+              to="/web-details"
+            >
               <div className="all-services-each-card-button">
                 <span>Read More</span>
                 <span>
@@ -164,10 +224,10 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            <span>03</span>
+            {/* <span>03</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/word.jpg"
+              src="/images/services _web development.png"
               alt=""
             />
           </motion.div>
@@ -178,12 +238,15 @@ export const DetailServices = () => {
             variants={container(0.3)}
             className="services-each-single-card"
           >
-            <h2>Mobile Development</h2>
-            <p>
+            <h2 className="serv-h2">Mobile Development</h2>
+            <p className="serv-para">
               Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
               lectus and posuere. Duis urna lacus. READ MORE
             </p>
-            <Link className="detail-service-link" to="/andriod-details">
+            <Link
+              className="detail-service-link new-serv-link"
+              to="/andriod-details"
+            >
               <div className="all-services-each-card-button">
                 <span>Read More</span>
                 <span>
@@ -191,10 +254,10 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            <span>04</span>
+            {/* <span>04</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/word.jpg"
+              src="/images/services_mobile app.png"
               alt=""
             />
           </motion.div>
@@ -205,12 +268,12 @@ export const DetailServices = () => {
             variants={container(0.4)}
             className="services-each-single-card"
           >
-            <h2>E-commerce service</h2>
-            <p>
+            <h2 className="serv-h2">E-commerce service</h2>
+            <p className="serv-para">
               Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
               lectus and posuere. Duis urna lacus. READ MORE
             </p>
-            <Link className="detail-service-link">
+            <Link className="detail-service-link new-serv-link">
               <div className="all-services-each-card-button">
                 <span>Read More</span>
                 <span>
@@ -218,10 +281,10 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            <span>05</span>
+            {/* <span>05</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/word.jpg"
+              src="/images/services_e commerce.png"
               alt=""
             />
           </motion.div>
@@ -232,12 +295,12 @@ export const DetailServices = () => {
             variants={container(0.5)}
             className="services-each-single-card"
           >
-            <h2>Workshops</h2>
-            <p>
+            <h2 className="serv-h2">Workshops</h2>
+            <p className="serv-para">
               Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
               lectus and posuere. Duis urna lacus. READ MORE
             </p>
-            <Link className="detail-service-link">
+            <Link className="detail-service-link new-serv-link">
               <div className="all-services-each-card-button">
                 <span>Read More</span>
                 <span>
@@ -245,10 +308,10 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            <span>06</span>
+            {/* <span>06</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/word.jpg"
+              src="/images/services_ workshop.png"
               alt=""
             />
           </motion.div>
@@ -271,7 +334,7 @@ export const DetailServices = () => {
           software that is of the highest caliber. Acquire a market edge over
           competitors.
         </p>
-        <button>Ngs Quality</button>
+        <button>Nuhvin Quality</button>
       </div>
       {/*  */}
       <div className="our-stories-third-card-parents">

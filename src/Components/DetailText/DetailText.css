@@ -137,14 +137,14 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
   width: 30%;
-  height: 70%;
+  height: 210px;
   align-items: flex-start;
   justify-content: center;
   /* background-color: #f8f8f8; */
 }
 
 .detsila-text-single-icons-with-text-card > h3 {
-  font-size: 26px;
+  font-size: 22px;
   color: #0c1a1a;
 }
 

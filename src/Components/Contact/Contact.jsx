@@ -1,8 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import { motion } from "framer-motion";
+import { API } from "../../apidata/api";
 const transition = { type: "spring", duration: 1 };
 const Contact = () => {
+  const [user, setUser] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+    subject: "",
+  });
+
+  const onChangeUser = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
+  };
+
+  const onSubmitterForm = (e) => {
+    e.preventDefault();
+    // console.log(user);
+
+    API.post("/contact", user, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => {
+        console.log(res?.data?.message);
+        // alert("Tankyou");
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+
+    setUser({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+      subject: "",
+    });
+  };
+
   return (
     <div className="career-main">
       <div className="our-stories-first-card">
@@ -50,17 +89,46 @@ const Contact = () => {
           <h3>Contact Us</h3>
           <span>Reach out to us for any enquiry</span>
           <div className="ourstories-second-first-input-card">
-            <input type="text" placeholder="Enter Your Name" />
-            <input type="text" placeholder="Enter Email" />
+            <input
+              onChange={onChangeUser}
+              value={user.name}
+              name="name"
+              type="text"
+              placeholder="Enter Your Name"
+            />
+            <input
+              onChange={onChangeUser}
+              name="email"
+              type="text"
+              value={user.email}
+              placeholder="Enter Email"
+            />
           </div>
           <div className="ourstories-second-first-input-card">
-            <input type="text" placeholder="Enter Phone" />
-            <input type="text" placeholder="Enter Subject" />
+            <input
+              onChange={onChangeUser}
+              name="phone"
+              type="text"
+              value={user.phone}
+              placeholder="Enter Phone"
+            />
+            <input
+              onChange={onChangeUser}
+              name="subject"
+              type="text"
+              placeholder="Enter Subject"
+              value={user.subject}
+            />
           </div>
           <div className="our-stories-second-first-text-area-card">
-            <textarea placeholder="Enter Any Message"></textarea>
+            <textarea
+              onChange={onChangeUser}
+              name="message"
+              placeholder="Enter Any Message"
+              value={user.message}
+            ></textarea>
           </div>
-          <button>Send Request</button>
+          <button onClick={onSubmitterForm}>Send Request</button>
         </div>
         <div className="our-stories-second-second-card">
           <div style={{ width: "100%", height: "100%" }}>

@@ -161,12 +161,12 @@
 }
 
 .second-about-right-side {
-  width: 40%;
+  width: 50%;
   height: 100%;
 }
 
 .second-about-right-side > img {
-  width: 100%;
+  width: 140%;
   height: 80%;
   border-radius: 20%;
 }

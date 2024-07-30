@@ -17,14 +17,14 @@ export const Text = () => {
         <span className="shero-span-color">Revolutionize</span> business
       </h1>
       <p>
-        NGS relies heavily on IT elements like as AI-driven automation, powerful
-        analytics, and cloud computing
+        Nuhvin relies heavily on IT elements like as AI-driven automation,
+        powerful analytics, and cloud computing
       </p>
       <p>
         to modernize its companies AI-drive automation helps to simplify
         operations, while enhanced analytics provides actionable insights. Cloud
         computing provides scalability and agility, allowing for smooth
-        operations. These technology developments enable NGS to optimize
+        operations. These technology developments enable Nuhvin to optimize
         operations, improve client experiences, and generate long-term growth.
       </p>
       <button>

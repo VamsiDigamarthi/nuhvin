@@ -3,21 +3,23 @@ import "./ThirdSection.css";
 import { motion } from "framer-motion";
 import { container } from "../../data/animation";
 const ThirdSection = () => {
-  const transition = { type: "spring", duration: 1 };
   return (
     <div className="third-section-main-card">
       <div className="third-section-main-left-card">
-        <h1>Passion, Purpose, + Technology: Fostering</h1>
-        <h1 className="shero-span-color">Brilliant Ideas</h1>
+        <h1>
+          Passion, Purpose, + Technology:
+          <span className="shero-span-color">Fostering</span>{" "}
+        </h1>
+        <h1>Brilliant Ideas</h1>
         <p>
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content.
+          At Nuhvin, our foundation is built on three core principles: passion,
+          purpose, and technology. These guiding values drive us to innovate and
+          create impactful solutions that address complex business challenges.
         </p>
-        <p>
+        {/* <p>
           In publishing and graphic design, Lorem ipsum is a placeholder text
           commonly used to demonstrate ....
-        </p>
+        </p> */}
       </div>
       <div className="third-section-main-right-card">
         <motion.div
@@ -34,7 +36,7 @@ const ThirdSection = () => {
             <h3>We're Innovators</h3>
             <span>
               Our team is enthusiastic about opportunities to innovate and
-              discover amazing solutions to tough business challenges. NGS
+              discover amazing solutions to tough business challenges. Nuhvin
               designs and executes solutions for clients that save money, boost
               efficiency, and generate revenue.
             </span>
@@ -50,7 +52,7 @@ const ThirdSection = () => {
           <div>
             <h3>We're Enterpreneurial</h3>
             <span>
-              NGS has served on the boards of several ambitious technology
+              Nuhvin has served on the boards of several ambitious technology
               businesses, helping them achieve commercial success. We may assist
               develop initiatives strategically rather than just delivering the
               technical difficulty at hand.

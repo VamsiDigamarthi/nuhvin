@@ -9,12 +9,12 @@ export const DetailAbout = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <h3>Discover NGS</h3>
+            <h3>Discover Nuhvin</h3>
           </div>
           <h1>What we say to Our people</h1>
           <p>
-            At Ngs, innovation is our language, and your success is our mission.
-            Welcome to a world where possibilities are endless.
+            At Nuhvin, innovation is our language, and your success is our
+            mission. Welcome to a world where possibilities are endless.
           </p>
         </div>
         <motion.div
@@ -56,10 +56,10 @@ export const DetailAbout = () => {
           industries can turn to our global professional services firm.
         </p>
         <p>
-          NGS work with forward-thinking global corporations to transform their
-          most pressing issues into opportunities, resilience, and growth. The
-          construction of hyper-local supply chains is part of this process and
-          the enhancement of customer or employee experiences is a priority.
+          Nuhvin work with forward-thinking global corporations to transform
+          their most pressing issues into opportunities, resilience, and growth.
+          The construction of hyper-local supply chains is part of this process
+          and the enhancement of customer or employee experiences is a priority.
         </p>
         <p>
           See how our expertise in digital, data, and operational excellence are
@@ -67,19 +67,19 @@ export const DetailAbout = () => {
         </p>
         <button>
           <Link style={{ color: "#fff" }} className="sabout-link-card">
-            Ngs Info
+            Nuhvin Info
           </Link>
         </button>
       </div>
       <div className="detail-about-third-card">
         <div className="details-abput-third-card-left-side">
-          <img src="/images/detail-about-first-imagesss.jpg" alt="" />
+          <img src="/images/vision fix bck.png" alt="" />
           <motion.div
             initial={{ rotate: 45 }}
             whileInView={{ rotate: 0 }}
             transition={{ duration: 2.5, type: "spring" }}
           >
-            <img src="/images/rounded-detail-about-image.jpg" alt="" />
+            <img src="/images/vision fix.png" alt="" />
           </motion.div>
         </div>
         <div className="details-abput-third-card-right-side">
@@ -112,7 +112,7 @@ export const DetailAbout = () => {
               to="/out-visition"
               className="sabout-link-card"
             >
-              Ngs Vision
+              Nuhvin Vision
             </Link>
           </button>
         </div>
@@ -149,18 +149,18 @@ export const DetailAbout = () => {
               to="/out-mission"
               className="sabout-link-card"
             >
-              Ngs Mission
+              Nuhvin Mission
             </Link>
           </button>
         </div>
         <div className="details-abput-third-card-left-side">
-          <img src="/images/detail-about-first-imagesss.jpg" alt="" />
+          <img src="/images/mission fix back.png" alt="" />
           <motion.div
             initial={{ rotate: 45 }}
             whileInView={{ rotate: 0 }}
             transition={{ duration: 2.5, type: "spring" }}
           >
-            <img src="/images/rounded-detail-about-image.jpg" alt="" />
+            <img src="/images/mission fix.png" alt="" />
           </motion.div>
         </div>
       </div>
@@ -170,7 +170,7 @@ export const DetailAbout = () => {
           What We <span className="shero-span-color">Promises</span>
         </h1>
         <p>
-          At NGS, we promise to empower you with reliable, user-friendly
+          At Nuhvin, we promise to empower you with reliable, user-friendly
           software that delivers
         </p>
         <p>
@@ -182,20 +182,20 @@ export const DetailAbout = () => {
 
         <button>
           <Link style={{ color: "#fff" }} className="sabout-link-card">
-            Ngs Promise
+            Nuhvin Promise
           </Link>
         </button>
       </div>
       {/*  */}
       <div className="detail-about-third-card">
         <div className="details-abput-third-card-left-side">
-          <img src="/images/detail-about-first-imagesss.jpg" alt="" />
+          <img src="/images/values fix back.png" alt="" />
           <motion.div
             initial={{ rotate: 45 }}
             whileInView={{ rotate: 0 }}
             transition={{ duration: 2.5, type: "spring" }}
           >
-            <img src="/images/rounded-detail-about-image.jpg" alt="" />
+            <img src="/images/values fix.png" alt="" />
           </motion.div>
         </div>
         <div className="details-abput-third-card-right-side">
@@ -223,7 +223,7 @@ export const DetailAbout = () => {
           </p>
           <button className="detail-about-all-button">
             <Link style={{ color: "#fff" }} className="sabout-link-card">
-              Ngs Values
+              Nuhvin Values
             </Link>
           </button>
         </div>
@@ -257,18 +257,18 @@ export const DetailAbout = () => {
           </p>
           <button className="detail-about-all-button">
             <Link style={{ color: "#fff" }} className="sabout-link-card">
-              Ngs Strategy
+              Nuhvin Strategy
             </Link>
           </button>
         </div>
         <div className="details-abput-third-card-left-side">
-          <img src="/images/detail-about-first-imagesss.jpg" alt="" />
+          <img src="/images/goals.png" alt="" />
           <motion.div
             initial={{ rotate: 45 }}
             whileInView={{ rotate: 0 }}
             transition={{ duration: 2.5, type: "spring" }}
           >
-            <img src="/images/rounded-detail-about-image.jpg" alt="" />
+            <img src="/images/goals fix .png" alt="" />
           </motion.div>
         </div>
       </div>
@@ -285,10 +285,10 @@ export const DetailAbout = () => {
           that enable us to achieve our goals.
         </p>
         <p>
-          ngs is dedicated to attracting talented individuals by collaborating
-          with partners and universities that specialize in hiring candidates
-          from underrepresented communities and improving our employee referral
-          programs.
+          Nuhvin is dedicated to attracting talented individuals by
+          collaborating with partners and universities that specialize in hiring
+          candidates from underrepresented communities and improving our
+          employee referral programs.
         </p>
         <p>
           Our priority is to empower employees to reach their full potential,

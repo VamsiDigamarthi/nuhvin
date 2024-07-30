@@ -13,7 +13,7 @@ export const WhatWeOffer = () => {
         <div>
           <h1>We're Here To Share </h1>
           <h1>
-            To offers From <span className="shero-span-color">NGS</span>
+            To offers From <span className="shero-span-color">Nuhvin</span>
           </h1>
         </div>
         <span>

@@ -55,15 +55,15 @@ export const OurMission = () => {
           What We <span className="shero-span-color">Say</span> to our People
         </h2>
         <p>
-          NGS is a digital transformation company that focuses on experience and
-          can assist your business in achieving exponential growth by providing
-          outstanding engineered experiences to your customers and employees.
-          Our strategy is to merge human-centered design with the precision and
-          volume of real-time analytics, AI, cognitive technology, and
-          automation.
+          Nuhvin is a digital transformation company that focuses on experience
+          and can assist your business in achieving exponential growth by
+          providing outstanding engineered experiences to your customers and
+          employees. Our strategy is to merge human-centered design with the
+          precision and volume of real-time analytics, AI, cognitive technology,
+          and automation.
         </p>
         <p>
-          NGS is a digitization company that provides exclusivity. We are the
+          Nuhvin is a digitization company that provides exclusivity. We are the
           driving force behind the experience. Colossus of today—the companies
           best known for the transformative experiences they deliver. Working
           with the best has provided us with much of our knowledge about great
@@ -174,22 +174,20 @@ export const OurMission = () => {
               firm serves—both individuals and organizations.
             </span>
           </div>
-          {/* <div className="our-stories-third-card-icons-with-text">
-                <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
-                <span>
-                  <span>Sustainability</span> : To create software solutions that
-                  are not only effective but also environmentally and socially
-                  responsible.
-                </span>
-              </div> */}
-          {/* <div className="our-stories-third-card-icons-with-text">
-                <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
-                <span>
-                  <span>Diversity and inclusion</span> : To foster a diverse and
-                  inclusive environment where everyone feels valued and empowered to
-                  contribute their unique talents.
-                </span>
-              </div> */}
+          <div className="our-stories-third-card-icons-with-text">
+            <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
+            <span>
+              <span>Our desired outcomes:</span> :It outlines the specific goals
+              the company aims to achieve through its software solutions.
+            </span>
+          </div>
+          <div className="our-stories-third-card-icons-with-text">
+            <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
+            <span>
+              <span>A call to action:</span> : It quietly urges people and
+              organizations to join the company's quest for a better tomorrow.
+            </span>
+          </div>
         </motion.div>
       </div>
     </div>
