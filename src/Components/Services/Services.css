@@ -30,6 +30,9 @@
 
 .services-first-card-line > h3 {
   color: #ff6600 !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .services-first-card-line > span {

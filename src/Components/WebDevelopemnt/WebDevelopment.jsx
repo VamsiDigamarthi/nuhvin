@@ -75,11 +75,19 @@ const WebDevelopment = () => {
       {/*  show tech */}
       <div className="all-services-main-card">
         <div className="all-services-main-first-card">
-          <p>//WEB DEVELOPEMNT SERVICES</p>
+          {/* <p>//WEB DEVELOPEMNT SERVICES</p> */}
           <h2>We craft your digital future</h2>
-          <h1>
+          {/* <h1>
             Information & <span className="shero-span-color">Technologies</span>
-          </h1>
+          </h1> */}
+
+          <span className="andriod-dev-dummytext">
+            Nuhvin uses customized application development tools to satisfy the
+            specific requirements of businesses of all sizes. As a result, NGS
+            technology offers a broad variety of cross-platform application
+            development and other mobile application development services and
+            solutions.
+          </span>
         </div>
         <div className="all-services-each-card">
           <motion.div

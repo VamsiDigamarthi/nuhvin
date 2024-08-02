@@ -23,6 +23,9 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: grey;
   font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .testimonial-customer-name {
@@ -34,6 +37,7 @@
 .testimonial-customer-name > span {
   font-size: 18px;
   font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .testimonial-customer-name > :nth-child(2) {
@@ -51,6 +55,7 @@
   /* font-weight: bold; */
   letter-spacing: 2px;
   color: #c8c8cc;
+  font-family: "Poppins", sans-serif;
 }
 
 .testimonial-right-card {

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Quality.css";
 import { PiPlusCircleFill } from "react-icons/pi";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa6";
 const Quality = () => {
   return (
     <div className="quality-main">
@@ -10,19 +12,19 @@ const Quality = () => {
       <p>
         Developing software that is of the finest excellence after extensive
         testing and optimization.
-      </p>
-      <p>
+        <br />
         With our solutions for QA testing, test automation, performance testing,
         and security testing, you can develop
-      </p>
-      <p>
+        <br />
         software that is of the highest caliber. Acquire a market edge over
         competitors.
       </p>
-      <div className="about-learn-more-button-card">
-        <button>Learn More</button>
-        <PiPlusCircleFill size={25} color="White" />
-      </div>
+      <Link to="/detail-quality" className="sabout-link-card">
+        <div id="btn-width" className="awesome-single-button-card">
+          <button style={{ fontSize: "16px" }}>Nuhivn Quality</button>
+          <FaArrowRight size={20} color="#fff" />
+        </div>
+      </Link>
     </div>
   );
 };

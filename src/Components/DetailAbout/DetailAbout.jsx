@@ -1,5 +1,6 @@
 import React from "react";
 import "./DetailAbout.css";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 const transition = { type: "spring", duration: 1 };
@@ -7,15 +8,17 @@ export const DetailAbout = () => {
   return (
     <div className="detail-about-main-card">
       <div className="our-stories-first-card">
-        <div className="our-stories-first-card-inner-card">
+        <div className="our-stories-first-card-inner-card new-center">
           <div className="our-stories-fisrt-card-our-story-text">
-            <h3>Discover Nuhvin</h3>
+            <h3 className="white-h3">
+              <span className="new-dis">Discover</span> Nuhvin
+            </h3>
           </div>
-          <h1>What we say to Our people</h1>
-          <p>
+          {/* <h1>What we say to Our people</h1> */}
+          <span className="nuhvin-about-hearo-section">
             At Nuhvin, innovation is our language, and your success is our
             mission. Welcome to a world where possibilities are endless.
-          </p>
+          </span>
         </div>
         <motion.div
           initial={{ x: -100 }}
@@ -48,9 +51,16 @@ export const DetailAbout = () => {
       </div>
       <div className="detail-about-second-card">
         <h1>
-          What <span className="shero-span-color">motivates</span> us to do what
-          we do ..?
+          What{" "}
+          <span className="shero-span-color " id="new-moto">
+            motivates
+          </span>{" "}
+          us to do what we do ..?
         </h1>
+        <p></p>
+        <span className="hr-line"></span>
+        <p></p>
+
         <p>
           By transforming and shaping the future through business outcomes,
           industries can turn to our global professional services firm.
@@ -65,10 +75,19 @@ export const DetailAbout = () => {
           See how our expertise in digital, data, and operational excellence are
           put to use to improve the performance of businesses.
         </p>
-        <button>
-          <Link style={{ color: "#fff" }} className="sabout-link-card">
-            Nuhvin Info
+        <button
+          style={{
+            height: "45px",
+          }}
+          className="new-ha-btn"
+        >
+          <Link
+            style={{ color: "#Ff6600", fontSize: "16px" }}
+            className="sabout-link-card"
+          >
+            Nuhvin Intro
           </Link>
+          <FaLongArrowAltRight />
         </button>
       </div>
       <div className="detail-about-third-card">
@@ -84,36 +103,37 @@ export const DetailAbout = () => {
         </div>
         <div className="details-abput-third-card-right-side">
           <div className="details-about-third-card-right-side-ornage-container">
-            {/* <span></span> */}
-            <h3>The way we see</h3>
+            <h3
+              style={{
+                color: "#fff",
+              }}
+            >
+              The{" "}
+              <span className="way" id="new-moto">
+                way
+              </span>{" "}
+              we see
+            </h3>
           </div>
-          <motion.h1
-            initial={{ x: 190 }}
-            whileInView={{ x: 0 }}
-            transition={transition}
+
+          <p
+            style={{
+              color: "#fff",
+            }}
           >
-            We Help IT Companies Scale
-          </motion.h1>
-          <motion.h1
-            initial={{ x: 150 }}
-            whileInView={{ x: 0 }}
-            transition={{ ...transition, duration: 2 }}
-          >
-            Engineering <span className="shero-span-color">Capacity.</span>
-          </motion.h1>
-          <p>
             To empower individuals and organizations with software solutions
             that are intuitive and impactful, resulting in a future where
             technology fully enhances human potential.
           </p>
-          <button className="detail-about-all-button">
+          <button className="detail-about-all-button" id="new-btn">
             <Link
-              style={{ color: "#fff" }}
+              style={{ color: "#ff6600", fontSize: "16px" }}
               to="/out-visition"
               className="sabout-link-card"
             >
               Nuhvin Vision
             </Link>
+            <FaLongArrowAltRight size={25} color="#ff6600" />
           </button>
         </div>
       </div>
@@ -121,36 +141,38 @@ export const DetailAbout = () => {
       <div className="detail-about-third-card">
         <div className="details-abput-third-card-right-side new-detail-about-third-card-m">
           <div className="details-about-third-card-right-side-ornage-container">
-            <h3>We Strive to achieve our quest</h3>
+            <h3
+              style={{
+                color: "#fff",
+              }}
+            >
+              We{" "}
+              <span className="way" id="new-moto">
+                strive
+              </span>{" "}
+              to achieve our quest
+            </h3>
           </div>
-          <motion.h1
-            initial={{ x: -190 }}
-            whileInView={{ x: 0 }}
-            transition={transition}
+
+          <p
+            style={{
+              color: "#fff",
+            }}
           >
-            We Help IT Companies Scale
-          </motion.h1>
-          <motion.h1
-            initial={{ x: -150 }}
-            whileInView={{ x: 0 }}
-            transition={{ ...transition, duration: 2 }}
-          >
-            Engineering <span className="shero-span-color">Capacity.</span>
-          </motion.h1>
-          <p>
             Revolutionize the power of technology to create innovative software
             solutions, enabling users to achieve their goals. Guided by a
             commitment to integrity and excellence, we strive to make technology
             accessible and beneficial for everyone.
           </p>
-          <button className="detail-about-all-button">
+          <button className="detail-about-all-button" id="new-btn">
             <Link
-              style={{ color: "#fff" }}
+              style={{ color: "#ff6600" }}
               to="/out-mission"
               className="sabout-link-card"
             >
               Nuhvin Mission
             </Link>
+            <FaLongArrowAltRight size={25} color="#ff6600" />
           </button>
         </div>
         <div className="details-abput-third-card-left-side">
@@ -166,9 +188,12 @@ export const DetailAbout = () => {
       </div>
       {/*  */}
       <div className="detail-about-second-card">
-        <h1>
+        <h2>
           What We <span className="shero-span-color">Promises</span>
-        </h1>
+        </h2>
+        <p></p>
+        <span className="hr-line"></span>
+        <p></p>
         <p>
           At Nuhvin, we promise to empower you with reliable, user-friendly
           software that delivers
@@ -180,10 +205,19 @@ export const DetailAbout = () => {
           potential.
         </p>
 
-        <button>
-          <Link style={{ color: "#fff" }} className="sabout-link-card">
+        <button
+          className="new-ha-btn"
+          style={{
+            width: "180px",
+          }}
+        >
+          <Link
+            style={{ color: "#ff6600", fontSize: "16px" }}
+            className="sabout-link-card"
+          >
             Nuhvin Promise
           </Link>
+          <FaLongArrowAltRight />
         </button>
       </div>
       {/*  */}
@@ -200,31 +234,32 @@ export const DetailAbout = () => {
         </div>
         <div className="details-abput-third-card-right-side">
           <div className="details-about-third-card-right-side-ornage-container">
-            <h3>Our values</h3>
+            <h3
+              style={{
+                color: "#fff",
+              }}
+            >
+              Our{" "}
+              <span className="way" id="new-moto">
+                values
+              </span>
+            </h3>
           </div>
-          <motion.h1
-            initial={{ x: 190 }}
-            whileInView={{ x: 0 }}
-            transition={transition}
+
+          <p
+            style={{
+              color: "#fff",
+            }}
           >
-            We Help IT Companies Scale
-          </motion.h1>
-          <motion.h1
-            initial={{ x: 150 }}
-            whileInView={{ x: 0 }}
-            transition={{ ...transition, duration: 2 }}
-          >
-            Engineering <span className="shero-span-color">Capacity.</span>
-          </motion.h1>
-          <p>
             Innovation and collaboration are at our core, driving us to build
             user-centric software with integrity and a commitment to continuous
             learning in a culture of mutual respect and adaptability.
           </p>
-          <button className="detail-about-all-button">
-            <Link style={{ color: "#fff" }} className="sabout-link-card">
+          <button className="detail-about-all-button" id="new-btn">
+            <Link style={{ color: "#ff6600" }} className="sabout-link-card">
               Nuhvin Values
             </Link>
+            <FaLongArrowAltRight size={25} color="#ff6600" />
           </button>
         </div>
       </div>
@@ -233,32 +268,37 @@ export const DetailAbout = () => {
         <div className="details-abput-third-card-right-side new-detail-about-third-card-m">
           <div className="details-about-third-card-right-side-ornage-container">
             {/* <span></span> */}
-            <h3>Our Goals</h3>
+            <h3
+              style={{
+                color: "#fff",
+              }}
+            >
+              Our{" "}
+              <span className="way" id="new-moto">
+                Goals
+              </span>{" "}
+            </h3>
           </div>
-          <motion.h1
-            initial={{ x: -150 }}
-            whileInView={{ x: 0 }}
-            transition={transition}
+
+          <p
+            style={{
+              color: "#fff",
+            }}
           >
-            We Help IT Companies Scale
-          </motion.h1>
-          <motion.h1
-            initial={{ x: -150 }}
-            whileInView={{ x: 0 }}
-            transition={{ ...transition, duration: 2 }}
-          >
-            Engineering <span className="shero-span-color">Capacity.</span>
-          </motion.h1>
-          <p>
             We aim to become a leading force in the software industry by
             developing innovative and user-centric solutions that empower
             individuals, organizations and achieve full customer satisfaction
             rate through proactive support and continuous improvement.
           </p>
-          <button className="detail-about-all-button">
-            <Link style={{ color: "#fff" }} className="sabout-link-card">
+          <button
+            style={{ width: "200px" }}
+            className="detail-about-all-button"
+            id="new-btn"
+          >
+            <Link style={{ color: "#ff6600" }} className="sabout-link-card">
               Nuhvin Strategy
             </Link>
+            <FaLongArrowAltRight size={25} color="#ff6600" />
           </button>
         </div>
         <div className="details-abput-third-card-left-side">
@@ -277,6 +317,9 @@ export const DetailAbout = () => {
         <h1>
           Our <span className="shero-span-color">Approach</span>
         </h1>
+        <p></p>
+        <span className="hr-line"></span>
+        <p></p>
         <p>
           The unwavering quest for a better future for people, is essential to
           bringing about significant and long-lasting change for our clients,
@@ -301,6 +344,45 @@ export const DetailAbout = () => {
           community where individuals can come together and share thoughts and
           experiences.
         </p>
+      </div>
+      <div className="carres-at-nuhvin">
+        <div>
+          <div className="career-text-">
+            <h2>
+              Carees at{" "}
+              <span
+                style={{
+                  color: "#ff6600",
+
+                  marginTop: "15px",
+                }}
+                className="curvi-text-24"
+              >
+                Nuhvin
+              </span>
+            </h2>
+            <span>Explore Your Passion:</span>
+            <span>Dive deep into what excites and energizes you</span>
+
+            <button
+              className="detail-about-all-button"
+              id="new-btn"
+              style={{ width: "240px", fontSize: "16px" }}
+            >
+              <Link
+                style={{ color: "#ff6600" }}
+                to="/career"
+                className="sabout-link-card"
+              >
+                Visit Our Career Page
+              </Link>
+              <FaLongArrowAltRight size={25} color="#ff6600" />
+            </button>
+          </div>
+          <div className="asds-image-card">
+            <img src="/images/9d895a9f90 (1).jpg" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );

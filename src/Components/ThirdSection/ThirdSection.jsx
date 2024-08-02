@@ -8,9 +8,11 @@ const ThirdSection = () => {
       <div className="third-section-main-left-card">
         <h1>
           Passion, Purpose, + Technology:
-          <span className="shero-span-color">Fostering</span>{" "}
+          <br />
+          <span className="shero-span-color new-fos">Fostering</span> Brilliant
+          Ideas
         </h1>
-        <h1>Brilliant Ideas</h1>
+
         <p>
           At Nuhvin, our foundation is built on three core principles: passion,
           purpose, and technology. These guiding values drive us to innovate and

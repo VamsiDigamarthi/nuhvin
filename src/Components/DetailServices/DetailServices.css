@@ -14,6 +14,48 @@
   align-items: center;
 }
 
+.services-heading {
+  color: #ff6600;
+  font-family: "Pacifico", cursive !important;
+  font-size: 60px;
+}
+.services-para {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 20px !important;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.new-size {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.our-stories-second-card > h2 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+.our-stories-second-card > p {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+}
+
 .our-stories-second-card > button {
   width: 120px;
   height: 40px;
@@ -33,11 +75,14 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-color: #f5f7fa;
+  background-color: #c7d3e4;
   padding: 30px 0px;
   /* border: 2px solid red; */
 }
 
+.new-quality {
+  background-color: #c7d3e4;
+}
 .all-services-main-first-card {
   width: 100%;
   display: flex;
@@ -62,6 +107,16 @@
   margin-bottom: 0;
 }
 
+.out-h2-sjsn {
+  font-size: 18px;
+}
+.new-word {
+  font-size: 28px;
+}
+
+.out-h2-sjsn > span {
+  font-size: 40px;
+}
 .all-services-main-first-card > h1 {
   font-size: 45px;
   font-weight: bold;
@@ -139,7 +194,7 @@
 }
 
 .all-services-each-card-button > :nth-child(2) {
-  background-color: black;
+  /* background-color: black; */
   padding: 8px;
   display: flex;
   justify-content: center;
@@ -187,6 +242,19 @@
   transition: color 0.5s ease, top 0.5s ease, left 0.5s ease;
 }
 
+#service-psdfg {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 20px;
+  font-weight: normal !important;
+  color: #0c1a1a !important;
+}
+
 .services-each-single-card:hover .serv-h2 {
   color: #fff !important;
   position: absolute;
@@ -214,5 +282,140 @@
 @media (max-width: 768px) {
   .all-services-main-first-card {
     padding: 30px;
+  }
+}
+
+.dont-let-your0project-main-card {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 1rem;
+  padding: 30px 60px;
+  align-items: center;
+}
+
+.dont-let-your0project-main-card > h2 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+.v-new {
+  font-size: 40px;
+}
+
+.new-time-line-span {
+  color: #ff6600;
+  font-family: "Pacifico", cursive;
+}
+
+.dont-let-your-project-inner-card {
+  width: 100%;
+  display: flex;
+  /* border: 2px solid red; */
+  /* height: 500px; */
+  height: fit-content;
+}
+
+.dont-let-your-project-left-main-card {
+  width: 65%;
+  display: flex;
+  /* border: 2px solid yellow; */
+}
+
+.dont-let-your-project-left-first-card {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.bor {
+  border-right: 1px solid grey;
+  /* position: relative; */
+}
+
+.dont-let-your-project-left-first-card > h2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+.dont-let-your-project-left-second-card {
+  width: 50%;
+}
+
+.single-dont-let-your-project {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  padding: 20px;
+  align-items: flex-start;
+  border-top: 1px solid lightgray;
+  height: 200px;
+}
+
+.single-dont-let-your-project > :nth-child(1) {
+  width: 150px;
+}
+
+.single-dont-let-your-project > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.single-dont-let-your-project > div > h4 {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+.single-dont-let-your-project > div > p {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 16px;
+  /* text-align: justify; */
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+}
+
+.dont-let-your-project-right-card {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dont-let-your-project-right-card > img {
+  width: 80%;
+}
+
+.dont-technologies-main-card {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .all-services-each-card {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .services-each-single-card {
+    width: 90%;
   }
 }

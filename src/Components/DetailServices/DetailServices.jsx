@@ -1,12 +1,22 @@
 import React from "react";
 import "./DetailServices.css";
+import { FaHandPointLeft } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
-import { FaAngleRight } from "react-icons/fa6";
+import { FaAngleRight, FaArrowRight } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { GiStarShuriken } from "react-icons/gi";
 import { container, featureVariantsAbout } from "../../data/animation";
 import { Link } from "react-router-dom";
+import { AiOutlineDisconnect } from "react-icons/ai";
+import { LiaGitlab } from "react-icons/lia";
+import { TbFreezeRow } from "react-icons/tb";
+import { FaHandPointRight } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa6";
+import { VscSearchFuzzy } from "react-icons/vsc";
+import { PiLaptopBold } from "react-icons/pi";
+import { TbPageBreak } from "react-icons/tb";
 // import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 // import { GiStarShuriken } from "react-icons/gi";
 // import { featureVariantsAbout } from "../../data/animation";
@@ -16,12 +26,9 @@ export const DetailServices = () => {
     <div className="detail-section-card">
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
-          <div className="our-stories-fisrt-card-our-story-text">
-            {/* <span></span> */}
-            <h3>Nuhvin Services</h3>
-          </div>
-          <h1>What we say to Our people</h1>
-          <p>
+          {/* <h1>What we say to Our people</h1> */}
+          <span className="services-heading">Nuhvin Offers </span>
+          <p className="services-para">
             comprehensive design, cutting-edge AI, and digital solutions that
             help businesses succeed from startup to enterprise.
           </p>
@@ -76,16 +83,24 @@ export const DetailServices = () => {
           growth in this way.And never stop inventing
         </p>
         <p>to create amazing experiences that will pleasure us tomorrow.</p>
-        <button>Nuhvin Info</button>
+
+        <Link to="/our-services" className="sabout-link-card">
+          <div
+            style={{ width: "160px" }}
+            className="awesome-single-button-card"
+          >
+            <button>Nuhvin Intro</button>
+            <FaArrowRight size={20} color="#fff" />
+          </div>
+        </Link>
       </div>
 
       <div className="all-services-main-card">
         <div className="all-services-main-first-card">
-          <p>//OUR SERVICES</p>
-          <h2>We Run All Kinds Of Services In Form Of</h2>
-          <h1>
-            Information & <span className="shero-span-color">Technologies</span>
-          </h1>
+          {/* <p>OUR SERVICES</p> */}
+          <h2 className="s">
+            What we <span className="shero-span-color new-size">provide</span>
+          </h2>
         </div>
         <div className="all-services-each-card">
           {/* ai */}
@@ -96,9 +111,12 @@ export const DetailServices = () => {
             className="services-each-single-card"
           >
             <h2 className="serv-h2">Artificial Intelligence(AI)</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
+            <p className="serv-para" id="service-psdfg">
+              Artificial intelligence (AI) is a branch of computer science that
+              deals with the creation of intelligent agents, which are systems
+              that can reason, learn, and act autonomously. AI can be used to
+              automate tasks, improve decision-making, and gain insights from
+              data.
             </p>
             <Link to="/ai" className="detail-service-link new-serv-link">
               <div className="all-services-each-card-button">
@@ -115,88 +133,6 @@ export const DetailServices = () => {
               alt=""
             />
           </motion.div>
-          {/* cloud */}
-          <motion.div
-            initial="offscreen"
-            whileInView={"onscreen"}
-            variants={container(0)}
-            className="services-each-single-card"
-          >
-            <h2 className="serv-h2">Cybersecurity</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
-            </p>
-            <Link
-              to="/cloud-computing-details"
-              className="detail-service-link new-serv-link"
-            >
-              <div className="all-services-each-card-button">
-                <span>Read More</span>
-                <span>
-                  <FaAngleRight size={20} color="#fff" />
-                </span>
-              </div>
-            </Link>
-            {/* <span>01</span> */}
-            <img
-              className="services-each-single-card-image-card"
-              src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
-              alt=""
-            />
-          </motion.div>
-          <motion.div
-            initial="offscreen"
-            whileInView={"onscreen"}
-            variants={container(0)}
-            className="services-each-single-card"
-          >
-            <h2 className="serv-h2">Dev-Ops</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
-            </p>
-            <Link to="/dev-ops" className="detail-service-link new-serv-link">
-              <div className="all-services-each-card-button">
-                <span>Read More</span>
-                <span>
-                  <FaAngleRight size={20} color="#fff" />
-                </span>
-              </div>
-            </Link>
-            {/* <span>01</span> */}
-            <img
-              className="services-each-single-card-image-card"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GfftZ9uP4pj18-m7MU3wKBkroRibJfw8Jw&s"
-              alt=""
-            />
-          </motion.div>
-          <motion.div
-            initial="offscreen"
-            whileInView={"onscreen"}
-            variants={container(0)}
-            className="services-each-single-card"
-          >
-            <h2 className="serv-h2">Ui/Ux Design</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
-            </p>
-            <Link className="detail-service-link new-serv-link">
-              <div className="all-services-each-card-button">
-                <span>Read More</span>
-                <span>
-                  <FaAngleRight size={20} color="#fff" />
-                </span>
-              </div>
-            </Link>
-            {/* <span>01</span> */}
-            <img
-              className="services-each-single-card-image-card"
-              src="/images/services_UI_UX.png"
-              alt=""
-            />
-          </motion.div>
           {/* Software development */}
           <motion.div
             initial="offscreen"
@@ -205,9 +141,11 @@ export const DetailServices = () => {
             className="services-each-single-card"
           >
             <h2 className="serv-h2">Software Development</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
+            <p className="serv-para" id="service-psdfg">
+              Software development involves designing, coding, testing, and
+              maintaining applications or systems. It begins with understanding
+              user requirements, followed by planning and creating a software
+              architecture.
             </p>
             <Link
               className="detail-service-link new-serv-link"
@@ -227,6 +165,7 @@ export const DetailServices = () => {
               alt=""
             />
           </motion.div>
+
           {/* Web development */}
           <motion.div
             initial="offscreen"
@@ -235,9 +174,11 @@ export const DetailServices = () => {
             className="services-each-single-card"
           >
             <h2 className="serv-h2">Web Development</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
+            <p className="serv-para" id="service-psdfg">
+              Data analytics is the process of collecting, cleaning, and
+              analyzing data to gain insights that can be used to improve
+              business operations. Data analytics can be used to: Improve
+              marketing campaigns Develop new products and services{" "}
             </p>
             <Link
               className="detail-service-link new-serv-link"
@@ -257,6 +198,7 @@ export const DetailServices = () => {
               alt=""
             />
           </motion.div>
+
           {/* Mobile development */}
           <motion.div
             initial="offscreen"
@@ -264,10 +206,13 @@ export const DetailServices = () => {
             variants={container(0.3)}
             className="services-each-single-card"
           >
-            <h2 className="serv-h2">Mobile Development</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
+            <h2 className="serv-h2" style={{ textAlign: "center" }}>
+              Mobile App Development
+            </h2>
+            <p className="serv-para" id="service-psdfg">
+              Proficiency in programming languages like Java or Swift is crucial
+              for app development. User experience (UX) design and efficient
+              backend infrastructure are key factors in app development success.
             </p>
             <Link
               className="detail-service-link new-serv-link"
@@ -287,6 +232,259 @@ export const DetailServices = () => {
               alt=""
             />
           </motion.div>
+
+          {/* Ui-Ux  */}
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Ui/Ux Design</h2>
+            <p className="serv-para" id="service-psdfg">
+              UI/UX design focuses on creating user-friendly, aesthetically
+              pleasing, and effective interfaces for software applications. UI
+              (User Interface) design involves crafting the visual elements,
+              such as buttons, icons, and layouts, ensuring they are intuitive
+              and consistent.
+            </p>
+            <Link className="detail-service-link new-serv-link">
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="/images/services_UI_UX.png"
+              alt=""
+            />
+          </motion.div>
+
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2" style={{ textAlign: "center" }}>
+              Database Management System
+            </h2>
+            <p className="serv-para" id="service-psdfg">
+              A Database Management System (DBMS) is software that facilitates
+              the creation, management, and manipulation of databases. It allows
+              users to define, insert, update, delete, and query data
+              efficiently.
+            </p>
+            <Link
+              to="/database-management-details"
+              className="detail-service-link new-serv-link"
+            >
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4="
+              alt=""
+            />
+          </motion.div>
+
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Cloud Computing</h2>
+            <p className="serv-para" id="service-psdfg">
+              Cloud computing allows businesses to access software, storage, and
+              other IT resources over the internet. This can provide businesses
+              with a number of benefits, including:
+            </p>
+            <Link to="/dev-ops" className="detail-service-link new-serv-link">
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
+              alt=""
+            />
+          </motion.div>
+          {/* cloud */}
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Cybersecurity</h2>
+            <p className="serv-para" id="service-psdfg">
+              Cybersecurity involves protecting computer systems, networks, and
+              data from unauthorized access, attacks, and damage. It encompasses
+              various practices and technologies to safeguard digital assets.
+              Key areas include network security
+            </p>
+            <Link
+              to="/cloud-computing-details"
+              className="detail-service-link new-serv-link"
+            >
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
+              alt=""
+            />
+          </motion.div>
+          {/* dev-ops */}
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Dev-Ops</h2>
+            <p className="serv-para" id="service-psdfg">
+              DevOps is a set of practices that integrates software development
+              (Dev) and IT operations (Ops) to enhance collaboration, automate
+              processes, and improve the efficiency of delivering software
+              applications.
+            </p>
+            <Link to="/dev-ops" className="detail-service-link new-serv-link">
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GfftZ9uP4pj18-m7MU3wKBkroRibJfw8Jw&s"
+              alt=""
+            />
+          </motion.div>
+
+          {/* work shops */}
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0.5)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Workshops</h2>
+            <p className="serv-para" id="service-psdfg">
+              Workshops are interactive training sessions designed to teach
+              specific skills, concepts, or techniques. They typically involve
+              hands-on activities, discussions, and collaborative exercises,
+              allowing participants to apply what they've learned in a practical
+              context
+            </p>
+            <Link
+              to="/our-services"
+              className="detail-service-link new-serv-link"
+            >
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>06</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="/images/services_ workshop.png"
+              alt=""
+            />
+          </motion.div>
+          {/* Internships */}
+
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Internships</h2>
+            <p className="serv-para" id="service-psdfg">
+              Internships are temporary work experiences offered by
+              organizations to students or recent graduates to gain practical
+              knowledge in their field of study or interest. These programs can
+              be part-time or full-time and typically last for a few months
+            </p>
+            <Link
+              to="/our-services"
+              className="detail-service-link new-serv-link"
+            >
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4="
+              alt=""
+            />
+          </motion.div>
+          <motion.div
+            initial="offscreen"
+            whileInView={"onscreen"}
+            variants={container(0)}
+            className="services-each-single-card"
+          >
+            <h2 className="serv-h2">Training & Placements</h2>
+            <p className="serv-para" id="service-psdfg">
+              Training and placements are integral parts of professional
+              development, especially for students and recent graduates.
+              Training programs aim to equip individuals with the necessary
+              skills, knowledge, and competencies required for specific jobs or
+              industries.
+            </p>
+            <Link
+              to="/our-services"
+              className="detail-service-link new-serv-link"
+            >
+              <div className="all-services-each-card-button">
+                <span>Read More</span>
+                <span>
+                  <FaAngleRight size={20} color="#fff" />
+                </span>
+              </div>
+            </Link>
+            {/* <span>01</span> */}
+            <img
+              className="services-each-single-card-image-card"
+              src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4="
+              alt=""
+            />
+          </motion.div>
           {/* E-commers service */}
           <motion.div
             initial="offscreen"
@@ -295,9 +493,11 @@ export const DetailServices = () => {
             className="services-each-single-card"
           >
             <h2 className="serv-h2">E-commerce service</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
+            <p className="serv-para" id="service-psdfg">
+              E-commerce services involve the buying and selling of goods and
+              services over the internet. These services include online retail
+              platforms, payment gateways, digital marketing, customer support,
+              and logistics
             </p>
             <Link className="detail-service-link new-serv-link">
               <div className="all-services-each-card-button">
@@ -314,19 +514,24 @@ export const DetailServices = () => {
               alt=""
             />
           </motion.div>
-          {/* work shops */}
+
+          {/* digital markeing */}
           <motion.div
             initial="offscreen"
             whileInView={"onscreen"}
-            variants={container(0.5)}
+            variants={container(0)}
             className="services-each-single-card"
           >
-            <h2 className="serv-h2">Workshops</h2>
-            <p className="serv-para">
-              Nullam tincidunt augue eget densis volu tpat, vitae ultri ces
-              lectus and posuere. Duis urna lacus. READ MORE
+            <h2 className="serv-h2">Digital Marketing</h2>
+            <p className="serv-para" id="service-psdfg">
+              Digital marketing involves promoting products or services through
+              online channels to reach and engage with target audiences. It
+              encompasses a variety of strategies and tactics, including:
             </p>
-            <Link className="detail-service-link new-serv-link">
+            <Link
+              to="/our-services"
+              className="detail-service-link new-serv-link"
+            >
               <div className="all-services-each-card-button">
                 <span>Read More</span>
                 <span>
@@ -334,18 +539,184 @@ export const DetailServices = () => {
                 </span>
               </div>
             </Link>
-            {/* <span>06</span> */}
+            {/* <span>01</span> */}
             <img
               className="services-each-single-card-image-card"
-              src="/images/services_ workshop.png"
+              src="https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4="
               alt=""
             />
           </motion.div>
+
+          {/* other services */}
         </div>
       </div>
 
-      <div className="our-stories-second-card">
+      {/* don't let your project be another static. */}
+      <div className="dont-let-your0project-main-card">
         <h2>
+          don't let{" "}
+          <span className="new-time-line-span v-new">your project</span> be
+          another static.
+        </h2>
+        <div className="dont-let-your-project-inner-card">
+          <div className="dont-let-your-project-left-main-card">
+            <motion.div
+              initial={{ x: -100 }}
+              whileInView={{ x: 0 }}
+              transition={transition}
+              className="dont-let-your-project-left-first-card bor"
+            >
+              <h2>
+                Regular Way <FaHandPointLeft />
+              </h2>
+              <div className="single-dont-let-your-project">
+                <AiOutlineDisconnect size={75} />
+                <div>
+                  <h4>Disconnect</h4>
+                  <p>
+                    Tech teams and project sponsors typically have conflicting
+                    ideas for the project or product, resulting in communication
+                    breakdowns and issues.
+                  </p>
+                </div>
+              </div>
+              <div className="single-dont-let-your-project">
+                <LiaGitlab size={75} />
+                <div>
+                  <h4>Agile Chaos</h4>
+                  <p>
+                    Misrepresentation of the Agile method resulted in confusion
+                    and uneven solutions; nonetheless, Agile should not be used
+                    as a justification for sloppy coding techniques.
+                  </p>
+                </div>
+              </div>
+              {/* third */}
+              <div className="single-dont-let-your-project">
+                <TbFreezeRow size={75} />
+                <div>
+                  <h4>Zero or Low Documentation</h4>
+                  <p>
+                    Have you worked on projects with little to no recorded
+                    information, making it difficult to comprehend how the
+                    solution works?
+                  </p>
+                </div>
+              </div>
+              {/* fouth */}
+              <div className="single-dont-let-your-project">
+                <LiaGitlab size={75} />
+                <div>
+                  <h4>Developers Only Teams</h4>
+                  <p>
+                    Team members make development decisions, but solutions
+                    frequently fail to scale owing to a lack of planning and
+                    forethought.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ x: 100 }}
+              whileInView={{ x: 0 }}
+              transition={transition}
+              className="dont-let-your-project-left-first-card"
+            >
+              <h2 style={{ color: "#ff6600" }}>
+                <FaHandPointRight color="#ff6600" /> Nuhvin way
+              </h2>
+              <div className="single-dont-let-your-project">
+                <VscSearchFuzzy color="#ff6600" size={75} />
+                <div>
+                  <h4
+                    style={{
+                      color: "#ff6600",
+                    }}
+                  >
+                    Deeper Discovery
+                  </h4>
+                  <p>
+                    TOur discovery workshops bring together stakeholder goals
+                    and project vision to foster greater collaboration and
+                    understanding.
+                  </p>
+                </div>
+              </div>
+              <div className="single-dont-let-your-project">
+                <PiLaptopBold color="#ff6600" size={75} />
+                <div>
+                  <h4
+                    style={{
+                      color: "#ff6600",
+                    }}
+                  >
+                    Design First Approach
+                  </h4>
+                  <p>
+                    Our in-depth exploration is followed by a complete design to
+                    ensure everything is clearly communicated and serves as a
+                    clear guidance for developers.
+                  </p>
+                </div>
+              </div>
+              {/* third */}
+              <div className="single-dont-let-your-project">
+                <TbPageBreak color="#ff6600" size={75} />
+                <div>
+                  <h4
+                    style={{
+                      color: "#ff6600",
+                    }}
+                  >
+                    Thorough Documentation
+                  </h4>
+                  <p>
+                    Have you worked on projects with little to no recorded
+                    information, making it difficult to comprehend how the
+                    solution works?
+                  </p>
+                </div>
+              </div>
+              {/* fouth */}
+              <div className="single-dont-let-your-project">
+                <FaUsers color="#ff6600" size={75} />
+                <div>
+                  <h4
+                    style={{
+                      color: "#ff6600",
+                    }}
+                  >
+                    Well Rounded Team
+                  </h4>
+                  <p>
+                    Every project needs a CTO lens, an Architect's crafting, a
+                    Project Manager's control, a Business Analyst's logic, a
+                    Developer's skill, and a Tester's diligence. We put together
+                    a wholesome team.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+          <div className="dont-let-your-project-right-card">
+            <img
+              src="https://img.freepik.com/free-vector/isometric-cms-concept_23-2148807389.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722297600&semt=ais_hybrid"
+              alt=""
+            />
+            <img
+              src="https://img.freepik.com/free-vector/young-tiny-girl-sitting-coding-via-laptop-computer-programmer-code-flat-vector-illustration-it-digital-technology_74855-8751.jpg"
+              alt=""
+            />
+            <img
+              src="https://img.freepik.com/vektoren-premium/frau-programmierer-software-web-entwicklung-auf-computer-maedchen-arbeit-skriptcodierung-programmierung_352905-203.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div className="dont-technologies-main-card"></div>
+      <div className="our-stories-second-card new-quality">
+        <h2 className="out-h2-sjsn">
           Our <span className="shero-span-color">Quality</span> Management
         </h2>
         <p>
@@ -360,7 +731,13 @@ export const DetailServices = () => {
           software that is of the highest caliber. Acquire a market edge over
           competitors.
         </p>
-        <button>Nuhvin Quality</button>
+        <button
+          style={{
+            width: "200px",
+          }}
+        >
+          Nuhvin Quality
+        </button>
       </div>
       {/*  */}
       <div className="our-stories-third-card-parents">
@@ -394,23 +771,32 @@ export const DetailServices = () => {
           transition={{ ...transition, duration: 2 }}
           className="our-stories-third-card-parents-right-card"
         >
-          <div className="our-stories-fisrt-card-our-story-text">
-            {/* <span></span> */}
-            <h3>FUTURE</h3>
-          </div>
-          <h1>
-            The way we <span className="shero-span-color">work</span>
+          <h1 style={{ fontSize: "30px" }}>
+            The{" "}
+            <span
+              style={{ fontSize: "44px" }}
+              className="shero-span-color new-word"
+            >
+              way{" "}
+            </span>{" "}
+            we work
           </h1>
           <p>
             Our approach starts with creating authenticity through a thorough
             exploration call. We collaborate closely with our customers to
-            better grasp their distinct vision, brand values, and mission.
+            better grasp their distinct vision, brand values, and mission. Our
+            designers utilize this information to produce bespoke designs that
+            correctly reflect the brand's identity. We adopt a collaborative
+            approach, engaging with customers at every stage of the process,
+            from early design concepts to final product delivery.
           </p>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Collaborate with client every step of the way</span> :We
-              collaborate extensively with our clients throughout the design
+              <span style={{ fontSize: "20px" }}>
+                Collaborate with client every step of the way
+              </span>{" "}
+              :We collaborate extensively with our clients throughout the design
               process, allowing for comments and adjustments to ensure their
               satisfaction with the product.
             </span>
@@ -418,15 +804,17 @@ export const DetailServices = () => {
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Stay up-to-date with latest design trends</span>: We stay up
-              with the most recent design trends so that we can provide our
-              clients timeless, contemporary designs.
+              <span style={{ fontSize: "20px" }}>
+                Stay up-to-date with latest design trends
+              </span>
+              : We stay up with the most recent design trends so that we can
+              provide our clients timeless, contemporary designs.
             </span>
           </div>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>
+              <span style={{ fontSize: "20px" }}>
                 Provide designs of the highest caliber with short lead times.
               </span>
               : Our specialty is providing our clients with fast, high-quality
@@ -437,19 +825,62 @@ export const DetailServices = () => {
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Timeless</span> : It's relevant for the long term because it
-              doesn't depend on specific technologies or trends.
+              <span style={{ fontSize: "20px" }}>
+                Provide exceptional customer service
+              </span>{" "}
+              : We focus customer service and endeavour to give our clients a
+              happy and stress-free experience.
             </span>
           </div>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Provide exceptional customer service</span> : We focus
-              customer service and endeavour to give our clients a happy and
-              stress-free experience.
+              <span style={{ fontSize: "20px" }}>
+                surpass the client's expectations with every project
+              </span>{" "}
+              : Every project we embark on aims to surpass our clients'
+              expectations in order to guarantee their happiness and ongoing
+              success.
             </span>
           </div>
         </motion.div>
+      </div>
+      <div className="carres-at-nuhvin">
+        <div>
+          <div className="career-text-">
+            <span>
+              Carees at{" "}
+              <span
+                style={{
+                  color: "#ff6600",
+                  fontSize: "36px",
+                }}
+              >
+                Nuhvin
+              </span>
+            </span>
+            <span>Explore Your Passion:</span>
+            <span>Dive deep into what excites and energizes you</span>
+
+            <button
+              className="detail-about-all-button"
+              id="new-btn"
+              style={{ width: "240px" }}
+            >
+              <Link
+                style={{ color: "#ff6600" }}
+                to="/career"
+                className="sabout-link-card"
+              >
+                Visit Our Career Page
+              </Link>
+              <FaLongArrowAltRight size={25} color="#ff6600" />
+            </button>
+          </div>
+          <div className="asds-image-card">
+            <img src="/images/9d895a9f90 (1).jpg" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );

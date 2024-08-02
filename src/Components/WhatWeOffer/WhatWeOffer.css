@@ -4,14 +4,37 @@
   gap: 2rem;
   padding: 30px 60px;
   height: 110vh;
+  /* border: 2px solid red; */
+
+  /* border: 2px solid red; */
 }
 
+.waht-we {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
 .what-we-offers-text-card {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #0c1a1a;
+  /* border: 2px solid red; */
+}
+.what-we-offers-text-card > div {
+  width: 40%;
+  /* border: 2px solid red; */
+}
+
+.what-we-offers-text-card > div > h3 {
+  width: 90%;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  /* border: 2px solid red; */
 }
 
 .shero-span-color {
@@ -19,11 +42,15 @@
 }
 
 .what-we-offers-text-card > span {
-  width: 41%;
-  line-height: 25px;
-  font-weight: 600;
-  font-size: 18px;
+  width: 50%;
+  line-height: 26px;
+  /* font-weight: 600; */
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  font-family: "Poppins", sans-serif;
   color: #0c1a1a;
+  /* margin-right: 20px; */
 }
 
 .what-we-offers-card-parents {
@@ -81,7 +108,13 @@
   color: grey;
   font-weight: bold;
   font-size: 18px;
+
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
+}
+
+.what-we-offers-card-parents-single-inner-card > h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 .what-we-offers-button-card {

@@ -139,37 +139,41 @@ const OurVisition = () => {
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Empowerment</span> : We believe that everyone has access to
-              technology so they may reach their full potential.
+              <span style={{ fontSize: "20px" }}>Empowerment</span> : We believe
+              that everyone has access to technology so they may reach their
+              full potential.
             </span>
           </div>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Transformation</span>: Our software should lead to
-              significant and advantageous improvements for both people and
-              enterprises.
+              <span style={{ fontSize: "20px" }}>Transformation</span>: Our
+              software should lead to significant and advantageous improvements
+              for both people and enterprises.
             </span>
           </div>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>User-centricity</span>: Our top priority is creating
-              software solutions that are easy to use and intuitive.
+              <span style={{ fontSize: "20px" }}>User-centricity</span>: Our top
+              priority is creating software solutions that are easy to use and
+              intuitive.
             </span>
           </div>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Seamless integration</span> : Our vision is of a day where
-              technology subtly enhances human experience.
+              <span style={{ fontSize: "20px" }}>Seamless integration</span> :
+              Our vision is of a day where technology subtly enhances human
+              experience.
             </span>
           </div>
           <div className="our-stories-third-card-icons-with-text">
             <IoMdCheckmarkCircleOutline size={30} color="#ff3c00" />
             <span>
-              <span>Positive impact</span> :We strive to contribute to a future
-              where technology serves as a force for good
+              <span style={{ fontSize: "20px" }}>Positive impact</span> :We
+              strive to contribute to a future where technology serves as a
+              force for good
             </span>
           </div>
           {/* <div className="our-stories-third-card-icons-with-text">

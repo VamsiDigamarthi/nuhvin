@@ -79,11 +79,11 @@ const Devops = () => {
       {/*  show tech */}
       <div className="all-services-main-card">
         <div className="all-services-main-first-card">
-          <p>//DEV OPS</p>
+          {/* <p>//DEV OPS</p> */}
           <h2>We craft your digital future</h2>
-          <h1>
+          {/* <h1>
             Information & <span className="shero-span-color">Technologies</span>
-          </h1>
+          </h1> */}
           <span className="andriod-dev-dummytext">
             Our perform DevOps guidance and support can assist you optimize your
             software development and deployment workflows. We specialized in

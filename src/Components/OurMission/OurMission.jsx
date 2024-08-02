@@ -122,10 +122,6 @@ export const OurMission = () => {
           transition={{ ...transition, duration: 2 }}
           className="our-stories-third-card-parents-right-card"
         >
-          <div className="our-stories-fisrt-card-our-story-text">
-            {/* <span></span> */}
-            <h3>FUTURE</h3>
-          </div>
           <h1>
             By fulfilling this mission, <br /> we{" "}
             <span className="shero-span-color"> aim to</span>

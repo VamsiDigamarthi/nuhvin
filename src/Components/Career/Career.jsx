@@ -2,6 +2,7 @@ import React from "react";
 import "./Career.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { FaLongArrowAltRight } from "react-icons/fa";
 const transition = { type: "spring", duration: 1 };
 export const Career = () => {
   return (
@@ -9,13 +10,16 @@ export const Career = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <h3>Our Story</h3>
+            <h1
+              style={{
+                fontSize: "60px",
+              }}
+            >
+              <span className="new-career-asd">Career</span> at Nuhvin
+            </h1>
           </div>
-          <h1>What we say to Our people</h1>
-          <p>
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a
-          </p>
+          {/* <h1>What we say to Our people</h1> */}
+          <p className="new-car-pa">Fuel your intellectual firepower</p>
         </div>
         <motion.div
           initial={{ x: -100 }}
@@ -48,12 +52,15 @@ export const Career = () => {
       </div>
       {/* text */}
       <div
-        style={{ marginTop: "150px" }}
+        // style={{ marginTop: "150px" }}
         className="detail-about-second-card new-career-style"
       >
-        <h1>
+        <h1 style={{ fontSize: "36px" }}>
           What we <span className="shero-span-color">Say</span> to our people
         </h1>
+        <p></p>
+        <span className="hr-line"></span>
+        <p></p>
         <p className="text-change">
           Nuhvin is a digital transformation company that focuses on experience
           and can assist your business in achieving exponential growth by
@@ -64,11 +71,11 @@ export const Career = () => {
         </p>
         <p className="text-change">
           Nuhvin is a digitization company that provides exclusivity. We are the
-          driving force behind the experience. Colossus of today—the companies
-          best known for the transformative experiences they deliver. Working
-          with the best has provided us with much of our knowledge about great
-          experiences. The clients we work with are just like us in that they
-          care deeply about the human experiences they provide for customers.
+          driving force behind the Colossus of today the companies best known
+          for the transformative experiences they deliver. Working with the best
+          has provided us with much of our knowledge about great experiences.
+          The clients we work with are just like us in that they care deeply
+          about the human experiences they provide for their customers.
         </p>
         <p className="text-change">
           Our collaborations span many different industries, such as Banking &
@@ -95,45 +102,36 @@ export const Career = () => {
       {/* beware of text */}
       <div className="detail-about-third-card new-career-left-right-card">
         <div className="details-abput-third-card-left-side new-carrer-left">
-          {/* <img src="/images/detail-about-first-imagesss.jpg" alt="" />
-          <div>
-            <img src="/images/rounded-detail-about-image.jpg" alt="" />
-          </div> */}
           <img src="/images/alert fix.png" alt="" />
         </div>
         <div className="details-abput-third-card-right-side">
-          {/* <div className="details-about-third-card-right-side-ornage-container">
-            <h3>The way we see</h3>
-          </div> */}
-          <h1>
-            Beware of <span className="shero-span-color">Fake.</span>
+          <h1 style={{ color: "#fff" }}>
+            Beware of <span className="shero-span-color">Fake </span>
             offers
           </h1>
-          {/* <h1>
-            Engineering <span className="shero-span-color">Capacity.</span>
-          </h1> */}
-          <p>
+
+          <span style={{ color: "#fff" }}>
             Protect yourself from fraudulent activities. Nuhvin is commited to
             transparency and integrity. Nuhvin never charges candidates a fee to
             participate in our recruitment process.
-          </p>
-          <p>
+          </span>
+          <span style={{ color: "#fff" }}>
             Be cautious of unsolicited emails or messages claiming to be from
             Nuhvin, offering exclusive deals or opportunities. These often come
             from various social media sites or chat rooms or groups with people
             posing as Nuhvin Recruiters or Managers.
-          </p>
-          <p>
+          </span>
+          <span style={{ color: "#fff", fontWeight: "normal" }}>
             Official communications will only come through our verified
             channels. If in doubt, contact our official support team directly.
             Stay vigilant and safeguard your online presence.
-          </p>
+          </span>
         </div>
       </div>
       {/* apply job text */}
-      <div className="detail-about-second-card">
-        <h1>
-          Launch Your Tech <span className="shero-span-color">Journey</span>{" "}
+      <div className="detail-about-second-card" style={{ height: "50vh" }}>
+        <h1 style={{ fontSize: "36px" }}>
+          <span className="shero-span-color"> Launch</span> Your Tech Journey{" "}
           Here
         </h1>
         <p>
@@ -142,17 +140,26 @@ export const Career = () => {
           that's constantly pushing boundaries and developing groundbreaking
           solutions.
         </p>
-        <div className="career-btn-card">
-          <button>
-            <Link
-              to="/detail-career"
-              style={{ color: "#fff" }}
-              className="sabout-link-card"
-            >
-              Apply Job
-            </Link>
-          </button>
-          <button>Apply Freelances</button>
+        <div className="career-btn-card new-career-btn-asd">
+          <div>
+            <h3>Apply for Job</h3>
+            <button style={{ fontSize: "16px" }}>
+              <Link
+                to="/detail-career"
+                style={{ color: "#ff6600" }}
+                className="sabout-link-card"
+              >
+                Apply Now
+              </Link>
+              <FaLongArrowAltRight />
+            </button>
+          </div>
+          <div>
+            <h3>Freelance consultants</h3>
+            <button style={{ fontSize: "16px" }}>
+              Contact Now <FaLongArrowAltRight />
+            </button>
+          </div>
         </div>
       </div>
     </div>

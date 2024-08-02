@@ -47,21 +47,18 @@ export const Footer = () => {
       <div className="footer-left-side">
         <div className="footer-company-logo-text-card">
           <img src="/images/Frame 12.png" alt="logo" />
-          <div>
+          <div
+            style={{
+              marginLeft: "20px",
+            }}
+          >
             <p>
-              is an online aggregator of financial products and services. We
-              believe that unlike the common perception, every customer need is
-              different and every customer has a different priority. So a one
-              size fits all approach is seldom good.
+              We specialize in delivering innovative software development and
+              technology solutions, with a focus on safety and security. Our
+              team leverages advanced technologies to provide high-quality,
+              client-centric services that meet diverse needs and drive business
+              success.
             </p>
-            <div className="term-privacy-card">
-              <Link to="/terms-conditions" className="term-link">
-                Term & Conditions
-              </Link>
-              <Link to="/privacy-policy" className="term-link">
-                Privacy Policy
-              </Link>
-            </div>
           </div>
         </div>
         <div className="footer-services-others-address-card">
@@ -74,13 +71,11 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="footer-link" to="/cloud-computing-details">
-                  Cybersecurity
-                </Link>
-              </li>
-              <li>
-                <Link className="footer-link" to="/web-details">
-                  UI/UX design
+                <Link
+                  className="footer-link"
+                  to="/software-developemnt-details"
+                >
+                  Software Development
                 </Link>
               </li>
               <li>
@@ -94,16 +89,18 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  className="footer-link"
-                  to="/software-developemnt-details"
-                >
-                  Software Development
+                <Link className="footer-link" to="/web-details">
+                  UI/UX design
                 </Link>
               </li>
               <li>
-                <Link className="footer-link" to="/database-management-details">
-                  Database Management
+                <Link className="footer-link" to="/dev-ops">
+                  Cloud Computing
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/cloud-computing-details">
+                  Cybersecurity
                 </Link>
               </li>
               <li>
@@ -111,15 +108,21 @@ export const Footer = () => {
                   DevOps
                 </Link>
               </li>
+              <li>
+                <Link className="footer-link" to="/database-management-details">
+                  Database Management
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="footer-services-single-card">
             <h3>Other-Services</h3>
             <ul>
-              <li>Digital Marketing</li>
-              <li>Internships</li>
-              <li>E-commerce Services</li>
               <li>Workshops</li>
+              <li>Internships</li>
+              <li>Trainings</li>
+              <li>E-commerce Services</li>
+              <li>Digital Marketing</li>
             </ul>
           </div>
           <div className="footer-services-single-card">
@@ -151,7 +154,7 @@ export const Footer = () => {
           />
           <MdAlternateEmail color="#ff3c00" size={37} />
         </div>
-        <button onClick={onSubmitterForm}>Touch With Us</button>
+        <button onClick={onSubmitterForm}>Get in touch</button>
         <div className="footer-icons-card">
           <FaFacebook size={30} color="#ff3c00" />
           <a
@@ -174,6 +177,17 @@ export const Footer = () => {
           >
             <CiLinkedin size={30} color="#ff3c00" />
           </a>
+        </div>
+        <div className="term-privacy-card">
+          <Link to="/terms-conditions" className="term-link">
+            Term & Conditions
+          </Link>
+          <Link to="/privacy-policy" className="term-link">
+            Privacy Policy
+          </Link>
+          <p style={{ fontSize: "12px" }}>
+            Copyright © Nuhvin 2024, All rights reserved.
+          </p>
         </div>
       </div>
     </div>

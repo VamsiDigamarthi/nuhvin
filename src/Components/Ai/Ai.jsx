@@ -87,7 +87,7 @@ const Ai = () => {
       {/*  show tech */}
       <div className="all-services-main-card">
         <div className="all-services-main-first-card">
-          <p>//ARTIFICIAL INTELLIGENCE</p>
+          {/* <p>//ARTIFICIAL INTELLIGENCE</p> */}
           <h2>
             We craft your{" "}
             <span
@@ -99,9 +99,9 @@ const Ai = () => {
             </span>{" "}
             future
           </h2>
-          <h1>
+          {/* <h1>
             Information & <span className="shero-span-color">Technologies</span>
-          </h1>
+          </h1> */}
           <span className="andriod-dev-dummytext">
             Nuhvin's AI products and services are at the cutting edge of
             creativity, giving organizations with disruptive possibilities that
@@ -190,21 +190,14 @@ const Ai = () => {
             /> */}
           </div>
           {/* E-commers service */}
-          <div className="services-each-single-card">
+          {/* <div className="services-each-single-card">
             <h2 style={{ textAlign: "center" }}>DB Gap Audit</h2>
             <p>
               We We assess the database's security measures for assuring data
               confidentiality, integrity, and availability, and offer solutions
               to any gaps or vulnerabilities.
             </p>
-
-            {/* <span>05</span>
-            <img
-              className="services-each-single-card-image-card"
-              src="/images/word.jpg"
-              alt=""
-            /> */}
-          </div>
+          </div> */}
           <div className="services-each-single-card">
             <h2 style={{ textAlign: "center" }}>Deployment and Integration</h2>
             <p>

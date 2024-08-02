@@ -20,7 +20,7 @@
 }
 
 .active {
-  border-bottom: 1px solid #ff6600;
+  border-bottom: 3px solid #ff6600;
   /* border-bottom: 2px solid #ff3c00; */
 
   /* background-color: #ff7b00cb; */
@@ -41,18 +41,21 @@
 .header-nav-links-span {
   line-height: 15.99px;
   vertical-align: baseline;
-  letter-spacing: 2.6px;
+  letter-spacing: 0.5px;
   word-spacing: 0px;
   cursor: pointer;
   color: grey;
   font-weight: bold;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .header-nav-links-span:hover {
   transform: scale(1.1);
   transition: all 1s;
-  border-bottom: 1px solid #ff3c00;
+  border-bottom: 3px solid #ff3c00;
 }
 .header-nav-links > button {
   width: 100px;
@@ -72,6 +75,51 @@
 
 .mobile-ham-icons {
   display: none;
+}
+
+.nav-item {
+  position: relative;
+  margin: 0 1rem;
+}
+
+.nav-item > :nth-child(1) {
+  cursor: pointer;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -80px;
+  background-color: #383433;
+  /* border: 1px solid #ddd; */
+  list-style: none;
+  /* padding: 10px; */
+  margin: 0;
+  width: 170px;
+}
+
+.dropdown li {
+  padding: 0.5rem;
+  padding-left: 17px;
+  width: fit-content;
+}
+
+.dropdown li a {
+  color: grey;
+  text-decoration: none;
+  display: block;
+  display: flex;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown li a:hover {
+  /* background-color: #f0f0f0; */
+  transform: scale(1.1);
+  transition: all 1s;
+  border-bottom: 1px solid #ff3c00;
 }
 
 @media (max-width: 768px) {
@@ -97,5 +145,8 @@
     padding: 20px;
     height: calc(100vh - 75px);
     font-size: 20px;
+  }
+  .dropdown {
+    width: 200px;
   }
 }

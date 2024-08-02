@@ -72,11 +72,11 @@ const SoftwareDevelopemtDetail = () => {
       {/*  show tech */}
       <div className="all-services-main-card">
         <div className="all-services-main-first-card">
-          <p>//SOFTWARE DEVELOPEMNT SERVICES</p>
+          {/* <p>//SOFTWARE DEVELOPEMNT SERVICES</p> */}
           <h2>We craft your digital future</h2>
-          <h1>
+          {/* <h1>
             Information & <span className="shero-span-color">Technologies</span>
-          </h1>
+          </h1> */}
         </div>
         <div className="all-services-each-card">
           <motion.div

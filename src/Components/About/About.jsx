@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { PiSealCheckBold } from "react-icons/pi";
-import { PiPlusCircleFill } from "react-icons/pi";
+// import { PiPlusCircleFill } from "react-icons/pi";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";

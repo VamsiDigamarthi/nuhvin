@@ -6,6 +6,23 @@
 
   overflow: hidden;
 }
+.new-career-asd {
+  color: #ff6600;
+  font-family: "Pacifico", cursive;
+}
+
+.new-car-pa {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 20px !important;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+  text-align: center;
+  font-weight: normal !important;
+}
 
 .our-stories-first-card {
   background-color: #0c1a1a;
@@ -46,17 +63,48 @@
   align-items: center;
 }
 
-.career-btn-card > button {
+.career-btn-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.details-abput-third-card-right-side > span {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+  font-weight: normal !important;
+}
+
+.career-btn-card > div > button {
   width: fit-content;
   padding: 10px 14px;
-  background-color: #ff6600;
+  background-color: transparent;
   font-size: 18px;
   font-weight: bold;
   border-radius: 30px;
   border: none;
   outline: none;
-  color: #fff;
+  color: #ff6600;
   cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border: 2px solid #ff6600;
+}
+.new-career-btn-asd {
+  margin-top: 30px;
+  /* border: 2px solid red; */
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 768px) {

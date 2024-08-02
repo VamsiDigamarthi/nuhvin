@@ -76,11 +76,11 @@ const CyberSercurity = () => {
       {/*  show tech */}
       <div className="all-services-main-card">
         <div className="all-services-main-first-card">
-          <p>//DATABSE MANAGEMENT SERVICES</p>
+          {/* <p>//DATABSE MANAGEMENT SERVICES</p> */}
           <h2>We craft your digital future</h2>
-          <h1>
+          {/* <h1>
             Information & <span className="shero-span-color">Technologies</span>
-          </h1>
+          </h1> */}
           <span className="andriod-dev-dummytext">
             Nuhvin's cyber security solutions and assistance provide full
             defense against digital attacks, safeguarding the security and

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const slides = [
   {
     // image: "/images/second-section-second-image.jpg",
-    image: "/images/16.png",
+    image: "/images/hero page 1.png",
     heading: "24/7 Support - Get it",
     paragraph:
       "Start working with an company that provide everything you nedd to generate awareness, drive trafiic, connect with customers",

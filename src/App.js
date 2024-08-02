@@ -42,6 +42,9 @@ import Services from "./Components/Services/Services";
 import CyberSercurity from "./Components/CyberDetails/CyberDetails";
 import Ai from "./Components/Ai/Ai";
 import Devops from "./Components/Devops/Devops";
+import TransferCar from "./Components/TransferCar/TransferCar";
+import VideoAbout from "./Components/VideoAbout/VideoAbout";
+import DetailQuality from "./Components/DetailQuality/DetailQuality";
 
 function App() {
   return (
@@ -54,19 +57,27 @@ function App() {
           <Route
             path="/"
             element={
-              <>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "40px",
+                }}
+              >
                 <AdvancedSlider />
                 <Text />
                 {/* <Services /> */}
                 {/* <HowItsWork /> */}
-                <About />
+                {/* <About /> */}
+                <VideoAbout />
                 <ThirdSection />
                 {/* <SecondAbout /> */}
                 <WhatWeOffer />
                 <Quality />
                 {/* <Image /> */}
                 <Testimonials />
-              </>
+                <TransferCar />
+              </div>
             }
           />
 
@@ -76,6 +87,8 @@ function App() {
           <Route path="/out-revolution" element={<DetailText />} />
           <Route path="/our-services" element={<DetailServices />} />
           <Route path="/detail-about" element={<DetailAbout />} />
+          <Route path="/detail-quality" element={<DetailQuality />} />
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />
           <Route path="/detail-career" element={<DetailCareer />} />

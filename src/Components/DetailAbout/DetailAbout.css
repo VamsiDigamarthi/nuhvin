@@ -18,6 +18,56 @@
   position: relative;
 }
 
+.nuhvin-about-hearo-section {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+  text-align: center;
+}
+
+.new-ha-btn {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ff6600 !important;
+  background-color: transparent !important;
+  color: #ff6600 !important;
+  cursor: pointer;
+}
+
+.new-dis {
+  font-size: 60px;
+  color: #ff6600;
+  font-family: "Pacifico", cursive;
+}
+.new-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 2px solid red; */
+}
+
+.white-h3 {
+  color: #fff !important;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: start !important;
+}
+
+.nuhvin-font {
+  font-size: 18px !important;
+  margin-top: -25px !important;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
 .our-stories-first-card-inner-card {
   display: flex;
   flex-direction: column;
@@ -130,11 +180,27 @@
   line-height: 30px;
   position: relative;
   /* border: 2px solid red; */
-  height: 400px;
+  /* height: 440px; */
+}
+
+.hr-line {
+  width: 100px;
+  border-bottom: 3px solid #ff6600;
 }
 
 .detail-about-second-card > h1 {
   width: fit-content;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -1px;
+  /* border-bottom: 3px solid #ff6600; */
+}
+
+.detail-about-second-card > h2 {
+  width: fit-content;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -1px;
   /* border-bottom: 3px solid #ff6600; */
 }
 
@@ -143,18 +209,21 @@
 }
 
 .detail-about-second-card > p {
-  font-family: "Archivo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
   font-style: normal;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
   text-align: center;
+  width: 80%;
 }
 
 .detail-about-second-card > button {
   width: 170px;
-  height: 40px;
+  height: 40px !important;
   background-color: #ff6600;
   border-radius: 20px;
   border: none;
@@ -169,6 +238,7 @@
   width: 100%;
   height: 550px;
   /* border: 2px solid red; */
+  background-color: #0c1a1a;
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -225,11 +295,35 @@
   align-items: center;
   color: #ff6600;
 }
+.details-about-third-card-right-side-ornage-container > h3 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -1px;
+}
 
 .details-about-third-card-right-side-ornage-container > span {
   width: 40px;
   height: 2px;
   background-color: #ff6600;
+}
+#new-moto {
+  font-size: 48px;
+  font-weight: 500;
+}
+.way {
+  color: #ff6600;
+  font-family: "Pacifico", cursive;
+}
+
+#new-btn {
+  background-color: transparent;
+  border: 2px solid #ff6600;
+  color: #ff6600;
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .details-abput-third-card-right-side > h1 {
@@ -239,9 +333,14 @@
 }
 
 .details-abput-third-card-right-side > p {
-  font-size: 16px;
-  font-weight: 600;
+  font-style: normal;
   letter-spacing: 1px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
 }
 
 .detail-about-all-button {
@@ -287,4 +386,66 @@
     height: fit-content;
     margin-top: 60px;
   }
+
+  .detail-about-second-card > p {
+    width: 90%;
+  }
+}
+
+.carres-at-nuhvin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+  padding: 30px 60px;
+}
+
+.carres-at-nuhvin > div {
+  background-color: #7ccaca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  width: 80%;
+  height: 100%;
+  /* color: #fff; */
+  padding: 30px;
+  gap: 1rem;
+}
+
+.career-text- {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.career-text- > span {
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+  line-height: 26px;
+}
+.career-text- > button {
+  margin-top: 20px;
+}
+
+.carres-at-nuhvin > div > span > span {
+  font-family: "Pacifico", cursive;
+}
+
+.asds-image-card {
+  width: 30%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.asds-image-card > img {
+  width: 70%;
+  height: 100%;
 }

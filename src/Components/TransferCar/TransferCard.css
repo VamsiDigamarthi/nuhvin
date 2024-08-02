@@ -1,0 +1,61 @@
+.transfer-carre {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-image: url("https://old.nuhvin.com/course/image.jpg");
+  background-size: cover;
+}
+
+.transfer-carre > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.tranfer-car-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  color: #fff;
+  gap: 1rem;
+  /* background-color: red; */
+}
+
+.tranfer-car-card > h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.tranfer-car-card > p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tranfer-car-card-button {
+  width: 170px;
+  height: 40px;
+  background-color: #ff6600;
+  border: none;
+  outline: none;
+
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}

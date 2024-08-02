@@ -7,18 +7,19 @@ export const WhatWeOffer = () => {
     <div className="what-we-offers">
       <div className="services-first-card-line">
         {/* <span></span> */}
-        <h3>What we Offer</h3>
+        <h2 style={{ color: "black" }} className="waht-we">
+          What we <span className="shero-span-color">Offer</span>
+        </h2>
       </div>
       <div className="what-we-offers-text-card">
         <div>
-          <h1>We're Here To Share </h1>
-          <h1>
-            To offers From <span className="shero-span-color">Nuhvin</span>
-          </h1>
+          <h3> We offers innovative technology solutions to drive progress.</h3>
         </div>
         <span>
-          Progressively maintain enterprise value vis-a-vis competitive
-          materials Distinctively myocardinate next-generation interfaces
+          We deliver cutting-edge technology solutions that promote advancement
+          and creativity. Our expertise in offering bespoke, high-impact
+          solutions guarantees that our clients meet their strategic objectives
+          and remain competitive in a changing market.
         </span>
       </div>
       <div className="what-we-offers-card-parents">

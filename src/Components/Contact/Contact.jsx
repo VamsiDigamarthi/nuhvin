@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import { motion } from "framer-motion";
+import { FaLocationDot } from "react-icons/fa6";
 import { API } from "../../apidata/api";
 const transition = { type: "spring", duration: 1 };
 const Contact = () => {
@@ -47,12 +48,14 @@ const Contact = () => {
       <div className="our-stories-first-card">
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
-            <h3>Our Story</h3>
+            <h1>
+              <span className="new-career-asd">Connect</span> at Nuhvin
+            </h1>
           </div>
-          <h1>What we say to Our people</h1>
-          <p>
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a
+          {/* <h1>What we say to Our people</h1> */}
+          <p className="new-car-pa">
+            Revolutionary digitization solutions to help you streamline your
+            processes and improve productivity.
           </p>
         </div>
         <motion.div
@@ -86,8 +89,8 @@ const Contact = () => {
       </div>
       <div className="our-stories-second-card-sss">
         <div className="our-stories-second-first-card-sss">
-          <h3>Contact Us</h3>
-          <span>Reach out to us for any enquiry</span>
+          <h3 id="contact">Contact Us</h3>
+          <span id="react">Reach out to us for any enquiry</span>
           <div className="ourstories-second-first-input-card">
             <input
               onChange={onChangeUser}
@@ -131,7 +134,22 @@ const Contact = () => {
           <button onClick={onSubmitterForm}>Send Request</button>
         </div>
         <div className="our-stories-second-second-card">
-          <div style={{ width: "100%", height: "100%" }}>
+          <h2 id="contact">Nuhvin Branches</h2>
+          <div>
+            <FaLocationDot size={70} color="#ff6600" />
+            <span id="react">
+              6th Floor,SPRINT Business Center Jayabheri Silicon Tower,
+              Kothaguda,Hyderabad-500084(T.S).
+            </span>
+          </div>
+          <div>
+            <FaLocationDot size={60} color="#ff6600" />
+            <span id="react">
+              70-1-9/1,Opp.Visakha Dairy, Sarpavaram Junction,
+              Kakinada-533005(A.P).
+            </span>
+          </div>
+          {/* <div style={{ width: "100%", height: "100%" }}>
             <iframe
               width="100%"
               height="100%"
@@ -144,7 +162,7 @@ const Contact = () => {
             >
               <a href="https://www.gps.ie/">gps systems</a>
             </iframe>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

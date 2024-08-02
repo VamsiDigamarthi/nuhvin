@@ -12,10 +12,10 @@ export const OurStory = () => {
         <div className="our-stories-first-card-inner-card">
           <div className="our-stories-fisrt-card-our-story-text">
             {/* <span></span> */}
-            <h3>Our Story</h3>
+            <h3 className="services-heading">Our Story</h3>
           </div>
-          <h1>What we say to Our people</h1>
-          <p>
+
+          <p className="services-para">
             In publishing and graphic design, Lorem ipsum is a placeholder text
             commonly used to demonstrate the visual form of a
           </p>
